@@ -28,7 +28,7 @@
 		\begin{tcolorbox}[title=Domínio ou Gênero do texto,height=2.4cm,valign=center]
 			Contos, romances, artigos
 			\tcblower
-			Influencia no rigor formal e no vocabulário. formais.                    
+			Influencia no rigor formal e no vocabulário.
 		\end{tcolorbox}
 	\end{column}
 \end{columns}
@@ -54,5 +54,73 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Conceitos - Subtarefas}
+\begin{frame}{Conceitos - Subtarefas da análise autoral}
+\begin{columns}
+	\begin{column}{0.48\textwidth}
+		\begin{tcolorbox}[title=AA de conjunto fechado,height=2.4cm,valign=center]
+			Os textos do conjunto de teste pertencem a um dos autores candidatos presentes no córpus de treinamento.                    
+		\end{tcolorbox}
+	\end{column}
+	\begin{column}{0.48\textwidth}
+		\begin{tcolorbox}[title=AA de conjunto aberto,height=2.4cm,valign=center]
+			Os textos do conjunto de teste não necessariamente foram escritos por um dos autores do córpus de treinamento                    
+		\end{tcolorbox}
+	\end{column}
+\end{columns}
+
+\begin{columns}
+	\begin{column}{0.48\textwidth}
+		\begin{tcolorbox}[title=K-Atribuição ou ordenação ,height=2.4cm,valign=center]
+			As saídas do classificador são ordenadas pela probabilidade e são retornados os K autores mais prováveis.
+		\end{tcolorbox}
+	\end{column}
+	\begin{column}{0.48\textwidth}
+		\begin{tcolorbox}[title=Caracterização,height=2.4cm,valign=center]
+			São extraídas informações demográficas do autor do texto podem reduzir a lista de candidatos.                    
+		\end{tcolorbox}
+	\end{column}
+\end{columns}
+
+\begin{columns}
+	\begin{column}{0.48\textwidth}
+		\begin{tcolorbox}[title=Verificação,height=2.4cm,valign=center]
+			Verifica-se se dois documentos foram escritos pelo mesmo autor, não sendo necessário saber quem são os autores.                
+		\end{tcolorbox}
+	\end{column}
+	\begin{column}{0.48\textwidth}
+		\begin{tcolorbox}[title=Demais,height=2.4cm,valign=center]
+			Agrupamento, Ligação e Quebra de estilo.                    
+		\end{tcolorbox}
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Conceitos - Tipos de conhecimentos usados}
+
+A abordagem estilométrica tradicional utiliza as seguintes fontes de conhecimento:
+
+\begin{itemize}
+	\item {\bf Categoria lexical:} tamanho médio das palavras, número de letras maiúsculas, tamanho das sentenças, etc.
+	
+	\item {\bf Categoria sintática:} frequência da pontuação, palavras de função, etc.
+	
+	\item {\bf Categoria semântica:} contagem das palavras, analisadores semânticos, {\it word embeddings}, etc. 
+	
+	\item {\bf Categoria específica de domínio:} palavras-chave, {\it tags} HTML, {\it emoticons}, etc.
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Conceitos - Tipos de conhecimentos usados}
+	\begin{tcolorbox}[title=Palavras,height=3cm,valign=center]
+		As palavras mais frequentes de um texto são independentes de domínio e utilizadas de forma inconsciente \cite{Kestemont2014}.\\ \\
+		{\bf Palavras de função} (do inglês, {\it function words}) compreende artigos, preposições, locuções adverbiais, e outros.	
+	\end{tcolorbox}
+
+	\begin{tcolorbox}[title=Caracteres,height=4cm,valign=center]
+		As sequências de caracteres são considerados os modelos mais efetivos para AA \cite{KjellWF94,Neal2017} e uma contagem simples pode produzir modelos próximos ao estado-da-arte \cite{Neal2017}.\\ \\
+		Os {\bf caracteres mais frequentes (CNG)} (do inglês, {\it common n-grams}) \cite{Keselj2003,Sapkota2014}.
+	\end{tcolorbox}
 \end{frame}
