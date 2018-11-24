@@ -1,0 +1,40 @@
+\section{Projeto de pesquisa}
+
+
+
+\begin{frame}{Lacunas e motivação}
+
+Lacunas gerais:
+
+\begin{itemize}
+	\item A AA é um problema de pesquisa não totalmente resolvido \cite{Potthast2017}.
+	\item É o tema da série de competições PAN-CLEF \cite{aa-overview-2018} \cite{Kocher2017Verificacao,Koppel2018_pseud,Varela2016}.
+	\item Estudos desta área exploram técnicas independentes de idioma e de domínio, subutilizando  recursos linguístico-computacionais.
+\end{itemize}
+
+O trabalho em \citeonline{custodioParaboni2018} apresentou o melhor desempenho global na edição de 2018 da competição PAN-CLEF, no entanto, deixa as seguintes lacunas:
+\begin{itemize}
+	\item não tirou proveito de conhecimentos dependentes de idioma como {\it part-of-speech} (POS).
+	\item e modelos de representação distribuída ({\it word embeddings}.
+	\item foi restrito ao domínio {\it Fanfic}.
+	\item não considerou dados em português brasileiro.
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame} {Hipóteses}
+
+Este trabalho considera as seguintes hipóteses:
+
+\begin{itemize}
+	\item {H1:} O uso de modelos independentes de idioma do tipo de distorção textual permite filtrar aspectos específicos do texto, e a combinação de diversos tipos de distorção pode aumentar o desempenho de sistemas de AA.
+	
+	\item {H2:} O uso de modelos dependentes de idioma do tipo {\it part-of-speech} extraídos por anotadores baseados em aprendizado profundo pode aumentar o desempenho de sistemas de AA.
+	
+	\item {H3:} O uso de modelos dependentes de idioma do tipo representação distribuída ({\it embeddings}) pode aumentar o desempenho de sistemas de AA.
+\end{itemize}
+
+
+Estas hipóteses serão testadas comparando-se os modelos propostos com sistemas de {\it baseline} que se façam pertinentes como o próprio modelo apresentado em \citeonline{custodioParaboni2018}.  A avaliação será feita por meio de medidas tradicionais em aprendizado de máquina, como a medida F, acurácia e outros. Espera-se que o resultado médio seja superior ao dos modelos de {\it baseline} de acordo com as métricas estipuladas.
+\end{frame}
