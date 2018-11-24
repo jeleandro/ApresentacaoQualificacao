@@ -1,0 +1,1701 @@
+% Encoding: UTF-8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CUSTODIO e PARABONI
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{aa-verificacao-hdrio-2018,
+	Author        = {Jos{\'e} Eleandro Cust{\'o}dio and Ivandr{\'e} Paraboni},
+	Title         = {{Similaridade de Textos aplicada à Verificação Autoral}},
+	Booktitle     = {1st International Congress on Digital Humanities in Rio de Janeiro},
+	Month         = apr,
+	Publisher     = {Fundação Getúlio Vargas},
+	Year          = {2018}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% REFERENCIAS BASICAS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@book{deza2009encyclopedia,
+	title={Encyclopedia of distances},
+	author={Michel Marie Deza and Elena Deza},
+	booktitle={Encyclopedia of Distances},
+	pages={1--583},
+	year={2009},
+	publisher={Springer}
+}
+
+@book{thomas2017credit,
+	title={Credit scoring and its applications},
+	author={Thomas, Lyn and Crook, Jonathan and Edelman, David},
+	volume={2},
+	year={2017},
+	publisher={Siam}
+}
+
+@incollection{teahan2003using,
+	title={Using compression-based language models for text categorization},
+	author={Teahan, William J and Harper, David J},
+	booktitle={Language modeling for information retrieval},
+	pages={141--165},
+	year={2003},
+	publisher={Springer}
+}
+
+@Book{Manning1999foundations,
+	Title         = {Foundations of statistical natural language processing},
+	Publisher     = {MIT press},
+	Year          = {1999},
+	Author        = {Christopher Manning and Hinrich Sch{\"u}tze},
+}
+
+@book{grossman2012information,
+	title={Information retrieval: Algorithms and heuristics},
+	author={Grossman, David A and Frieder, Ophir},
+	volume={15},
+	year={2012},
+	publisher={Springer Science \& Business Media}
+}
+
+@book{ManningIR,
+	author    = {Christopher D. Manning and
+	Prabhakar Raghavan and
+	Hinrich Sch{\"{u}}tze},
+	title     = {Introduction to information retrieval},
+	publisher = {Cambridge University Press},
+	year      = {2008},
+	isbn      = {978-0-521-86571-5},
+}
+
+@book{Goldberg2017neural,
+	Title         = {Neural Network Methods in Natural Language Processing},
+	Author        = {Yoav Goldberg},
+	Year          = {2017},
+	Publisher     = {Morgan \& Claypool Publishers}
+}
+
+@article{Turney2010,
+	Author        = {Peter D. Turney and Patrick Pantel},
+	Title         = {From Frequency to Meaning: Vector Space Models of Semantics},
+	Journal       = {Journal of artificial intelligence research},
+	Volume        = {abs/1003.1141},
+	Year          = {2010},
+	Doi           = {10.1613/jair.2934},
+}
+
+@article{bojanowski2017enriching,
+	title={Enriching Word Vectors with Subword Information},
+	author={Bojanowski, Piotr and Grave, Edouard and Joulin, Armand and Mikolov, Tomas},
+	journal={Transactions of the Association for Computational Linguistics},
+	volume={5},
+	year={2017},
+	issn={2307-387X},
+	pages={135--146}
+}
+
+@article{kullback1951information,
+	title={On information and sufficiency},
+	author={Kullback, Solomon and Leibler, Richard A},
+	journal={The annals of mathematical statistics},
+	volume={22},
+	number={1},
+	pages={79--86},
+	year={1951},
+	publisher={JSTOR}
+}
+
+@article{SrivastavaHKSS14,
+	author    = {Nitish Srivastava and
+	Geoffrey E. Hinton and
+	Alex Krizhevsky and
+	Ilya Sutskever and
+	Ruslan Salakhutdinov},
+	title     = {Dropout: a simple way to prevent neural networks from overfitting},
+	journal   = {Journal of Machine Learning Research},
+	volume    = {15},
+	number    = {1},
+	pages     = {1929--1958},
+	year      = {2014},
+}
+
+
+@article{HochreiterS97,
+	author    = {Sepp Hochreiter and
+	J{\"{u}}rgen Schmidhuber},
+	title     = {Long Short-Term Memory},
+	journal   = {Neural Computation},
+	volume    = {9},
+	number    = {8},
+	pages     = {1735--1780},
+	year      = {1997},
+	doi       = {10.1162/neco.1997.9.8.1735},
+}
+
+@inproceedings{KimXQWP17,
+	author    = {Sunghwan Mac Kim and
+	Qiongkai Xu and
+	Lizhen Qu and
+	Stephen Wan and
+	C{\'{e}}cile Paris},
+	editor    = {Regina Barzilay and
+	Min{-}Yen Kan},
+	title     = {Demographic Inference on Twitter using Recursive Neural Networks},
+	booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational
+	Linguistics, {ACL} 2017, Vancouver, Canada, July 30 - August 4, Volume
+	2: Short Papers},
+	pages     = {471--477},
+	publisher = {Association for Computational Linguistics},
+	year      = {2017},
+	doi       = {10.18653/v1/P17-2075},
+}
+
+
+@inproceedings{ChoMGBBSB14,
+	author    = {Kyunghyun Cho and
+	Bart van Merrienboer and
+	{\c{C}}aglar G{\"{u}}l{\c{c}}ehre and
+	Dzmitry Bahdanau and
+	Fethi Bougares and
+	Holger Schwenk and
+	Yoshua Bengio},
+	editor    = {Alessandro Moschitti and
+	Bo Pang and
+	Walter Daelemans},
+	title     = {Learning Phrase Representations using {RNN} Encoder-Decoder for Statistical
+	Machine Translation},
+	booktitle = {Proceedings of the 2014 Conference on Empirical Methods in Natural
+	Language Processing, {EMNLP} 2014, October 25-29, 2014, Doha, Qatar,
+	{A} meeting of SIGDAT, a Special Interest Group of the {ACL}},
+	pages     = {1724--1734},
+	publisher = {{ACL}},
+	year      = {2014},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CORPUS E FERRAMENTAS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{corpusRCV1,
+	Author        = {David D. Lewis and	Yiming Yang and	Tony G. Rose and Fan Li},
+	Title         = {{RCV1:} {A} New Benchmark Collection for Text Categorization Research},
+	Journal       = {Journal of Machine Learning Research},
+	Volume        = {5},
+	Pages         = {361--397},
+	Numpages      = {37},
+	Month         = dec,
+	Year          = {2004},
+	Issn          = {1532-4435}
+}
+
+@inproceedings{corpusEnron,
+	author    = {Bryan Klimt and
+	Yiming Yang},
+	editor    = {Jean{-}Fran{\c{c}}ois Boulicaut and
+	Floriana Esposito and
+	Fosca Giannotti and
+	Dino Pedreschi},
+	title     = {The Enron Corpus: {A} New Dataset for Email Classification Research},
+	booktitle = {Machine Learning: {ECML} 2004, 15th European Conference on Machine
+	Learning, Pisa, Italy, September 20-24, 2004, Proceedings},
+	series    = {Lecture Notes in Computer Science},
+	volume    = {3201},
+	pages     = {217--226},
+	publisher = {Springer},
+	year      = {2004},
+}
+
+@inproceedings{corpusImdb62Seroussi,
+	author    = {Yanir Seroussi and
+	Ingrid Zukerman and
+	Fabian Bohnert},
+	editor    = {Paul De Bra and
+	Alfred Kobsa and
+	David N. Chin},
+	title     = {Collaborative Inference of Sentiments from Texts},
+	booktitle = {User Modeling, Adaptation, and Personalization, 18th International
+	Conference, {UMAP} 2010, Big Island, HI, USA, June 20-24, 2010. Proceedings},
+	series    = {Lecture Notes in Computer Science},
+	volume    = {6075},
+	pages     = {195--206},
+	publisher = {Springer},
+	year      = {2010},
+	doi       = {10.1007/978-3-642-13470-8\_19},
+}
+
+@inproceedings{corpusCLiPS,
+	author    = {Ben Verhoeven and
+	Walter Daelemans},
+	editor    = {Nicoletta Calzolari and
+	Khalid Choukri and
+	Thierry Declerck and
+	Hrafn Loftsson and
+	Bente Maegaard and
+	Joseph Mariani and
+	Asunci{\'{o}}n Moreno and
+	Jan Odijk and
+	Stelios Piperidis},
+	title     = {CLiPS Stylometry Investigation {(CSI)} corpus: {A} Dutch corpus for
+	the detection of age, gender, personality, sentiment and deception
+	in text},
+	booktitle = {Proceedings of the Ninth International Conference on Language Resources
+	and Evaluation, {LREC} 2014, Reykjavik, Iceland, May 26-31, 2014.},
+	pages     = {3081--3085},
+	publisher = {European Language Resources Association {(ELRA)}},
+	year      = {2014},
+}
+@article{Pedregosa2011scikit,
+	Author        = {Fabian Pedregosa and Gael Varoquaux and Alexandre Gramfort and Vincent Michel and Bertrand Thirion and Olivier Grisel and Mathieu Blondel and Peter Prettenhofer and Ron Weiss and Vincent Dubourg and Jake Vanderplas and Alexandre Passos and David Cournapeau and Matthieu Brucher and Edouard Duchesnay and Perrot},
+	Journal       = {Journal of Machine Learning Research},
+	Pages         = {2825--2830},
+	Title         = {{Scikit-learn: Machine Learning in Python}},
+	Volume        = {12},
+	Year          = {2011}
+}
+
+@inproceedings{toolKitStandfordPOSNEJenny2005,
+	author    = {Jenny Rose Finkel and Trond Grenager and Christopher D. Manning},
+	title     = {Incorporating Non-local Information into Information Extraction Systems by Gibbs Sampling},
+	booktitle = {{ACL} 2005, 43rd Annual Meeting of the Association for Computational Linguistics, Proceedings of the Conference, 25-30 June 2005, University of Michigan, {USA}},
+	pages     = {363--370},
+	year      = {2005}
+}
+
+@inproceedings{rehurek_lrec,
+	title = {{Software Framework for Topic Modelling with Large Corpora}},
+	author = {Radim {\v R}eh{\r u}{\v r}ek and Petr Sojka},
+	booktitle = {{Proceedings of the LREC 2010 Workshop on New
+	Challenges for NLP Frameworks}},
+	pages = {45--50},
+	year = 2010,
+	month = May,
+	day = 22,
+	publisher = {ELRA},
+	address = {Valletta, Malta},
+	language={English}
+}
+
+@article{toolWEKA,
+	author    = {Mark A. Hall and Eibe Frank and Geoffrey Holmes and Bernhard Pfahringer and Peter Reutemann and Ian H. Witten},
+	title     = {The {WEKA} data mining software: an update},
+	journal   = {{SIGKDD} Explorations},
+	volume    = {11},
+	number    = {1},
+	pages     = {10--18},
+	year      = {2009}
+}
+
+@inproceedings{toolSpacy,
+	author    = {Matthew Honnibal and Mark Johnson},
+	title     = {An Improved Non-monotonic Transition System for Dependency Parsing},
+	booktitle = {Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing},
+	month     = {September},
+	year      = {2015},
+	address   = {Lisbon, Portugal},
+	publisher = {Association for Computational Linguistics},
+	pages     = {1373--1378},
+}
+
+@inproceedings{blogset-br,
+	title={{BlogSet-BR: A Brazilian Portuguese Blog Corpus}},
+	author={Henrique D. P. dos Santos and Vinicius Woloszyn and Renata Vieira},
+	booktitle={11th International Conference on Language Resources and Evaluation ({LREC}-2018)},
+	address={Miyazaki, Japan},
+	publisher={{ELRA}},
+	year={2018}
+}
+
+% b5
+@inproceedings{b5-corpus,
+	author={Ricelli Moreira Silva Ramos and Georges Basile Stavracas Neto and Barbara Barbosa Claudino Silva and  Danielle Sampaio Monteiro and  Ivandr\'e Paraboni and Rafael Felipe Sandroni Dias},
+	title={Building a Corpus for Personality-dependent Natural Language Understanding and Generation},
+	booktitle={11th International Conference on Language Resources and Evaluation ({LREC}-2018)},
+	address={Miyazaki, Japan},
+	publisher={{ELRA}},
+	pages={1138--1145},
+	year={2018}
+}
+
+@article{corpusChen2013creating,
+	title={Creating a live, public short message service corpus: the NUS SMS corpus},
+	author={Chen, Tao and Kan, Min-Yen},
+	journal={Language Resources and Evaluation},
+	volume={47},
+	number={2},
+	pages={299--335},
+	year={2013},
+	publisher={Springer}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% REFERENCIAS BASICAS - NEURAIS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{harris1954distributional,
+	title={Distributional structure},
+	author={Harris, Zellig S},
+	journal={Word},
+	volume={10},
+	number={2-3},
+	pages={146--162},
+	year={1954},
+	publisher={Taylor \& Francis}
+}
+
+@article{deerwester1990indexing,
+	title={Indexing by latent semantic analysis},
+	author={Deerwester, Scott and Dumais, Susan T and Furnas, George W and Landauer, Thomas K and Harshman, Richard},
+	journal={Journal of the American society for information science},
+	volume={41},
+	number={6},
+	pages={391--407},
+	year={1990},
+	publisher={Wiley Online Library}
+}
+
+@article{blei2003latent,
+	title={Latent dirichlet allocation},
+	author={Blei, David M and Ng, Andrew Y and Jordan, Michael I},
+	journal={Journal of machine Learning research},
+	volume={3},
+	number={Jan},
+	pages={993--1022},
+	year={2003}
+}
+
+@Article{Bengio2003,
+	Author        = {Yoshua Bengio and R{\'{e}}jean Ducharme and Pascal Vincent and Christian Janvin},
+	Title         = {{A Neural Probabilistic Language Model}},
+	Journal       = {Journal of Machine Learning Research},
+	Year          = {2003},
+	Volume        = {3},
+	Pages         = {1137--1155},
+}
+
+@inproceedings{TurianRB10,
+	author    = {Joseph P. Turian and
+	Lev{-}Arie Ratinov and
+	Yoshua Bengio},
+	editor    = {Jan Hajic and
+	Sandra Carberry and
+	Stephen Clark},
+	title     = {Word Representations: {A} Simple and General Method for Semi-Supervised
+	Learning},
+	booktitle = {{ACL} 2010, Proceedings of the 48th Annual Meeting of the Association
+	for Computational Linguistics},
+	pages     = {384--394},
+	publisher = {The Association for Computer Linguistics},
+	year      = {2010},
+	month     = {07},
+	location = {Uppsala, Sweden},
+}
+
+@article{SaltonWY75,
+	author    = {Gerard Salton and
+	A. Wong and
+	Chung{-}Shu Yang},
+	title     = {A Vector Space Model for Automatic Indexing},
+	journal   = {Association for computational machinary},
+	volume    = {18},
+	number    = {11},
+	pages     = {613--620},
+	year      = {1975},
+}
+
+@article{rosenblatt1962principles,
+	title={Principles of neurodynamics. perceptrons and the theory of brain mechanisms},
+	author={Frank Rosenblatt},
+	year={1962},
+	publisher={Spartan Book}
+}
+
+@InProceedings{rumelhart1986learning,
+	author    = {David E. Rumelhart and Geoffrey Hinton and Ronald J. Williams},
+	title     = {{Learning Representations by Back-propagating Errors}},
+	booktitle = {{Neurocomputing: Foundations of Research}},
+	year      = {1988},
+	editor    = {Anderson, James A. and Rosenfeld, Edward},
+	pages     = {696--699},
+	address   = {Cambridge, MA, USA},
+	publisher = {MIT Press},
+	isbn      = {0-262-01097-6},
+	numpages  = {4},
+}
+
+
+@inproceedings{PenningtonSM14,
+	author    = {Jeffrey Pennington and
+	Richard Socher and
+	Christopher D. Manning},
+	editor    = {Alessandro Moschitti and
+	Bo Pang and
+	Walter Daelemans},
+	title     = {Glove: Global Vectors for Word Representation},
+	booktitle = {Proceedings of the 2014 Conference on Empirical Methods in Natural
+	Language Processing, {EMNLP} 2014, October 25-29, 2014, Doha, Qatar,
+	{A} meeting of SIGDAT, a Special Interest Group of the {ACL}},
+	pages     = {1532--1543},
+	publisher = {{ACL}},
+	year      = {2014},
+}
+@InProceedings{Mikolov2013b,
+	Author        = {Tomas Mikolov and Ilya Sutskever and Kai Chen and Gregory S. Corrado and Jeffrey Dean},
+	Title         = {{Distributed Representations of Words and Phrases and their Compositionality}},
+	Booktitle     = {Advances in Neural Information Processing Systems 26: 27th Annual Conference on Neural Information Processing Systems 2013. Proceedings of a meeting held December 5-8, 2013, Lake Tahoe, Nevada, United States.},
+	Year          = {2013},
+	Pages         = {3111--3119},
+}
+
+
+@book{hosmer2013applied,
+	title={Applied logistic regression},
+	author={David Hosmer Jr and Stanley Lemeshow and Rodney X Sturdivant},
+	volume={398},
+	year={2013},
+	publisher={John Wiley \& Sons}
+}
+@book{nielsen2015neural,
+	title={Neural networks and deep learning},
+	author={Nielsen, Michael A},
+	year={2015},
+	publisher={Determination Press}
+}
+
+@Article{LeCun89,
+	author    = {Yann LeCun and Bernhard E. Boser and John S. Denker and Donnie Henderson and Richard E. Howard and Wayne E. Hubbard and Lawrence D. Jackel},
+	title     = {{Backpropagation Applied to Handwritten Zip Code Recognition}},
+	journal   = {Neural Computation},
+	year      = {1989},
+	volume    = {1},
+	number    = {4},
+	pages     = {541--551},
+	doi       = {10.1162/neco.1989.1.4.541},
+	url       = {https://doi.org/10.1162/neco.1989.1.4.541},
+}
+
+@book{Goodfellow2016,
+	title={Deep Learning},
+	author={Ian Goodfellow and Yoshua Bengio and Aaron Courville},
+	publisher={MIT Press},
+	note={{http://www.deeplearningbook.org}},
+	year={2016}
+}
+
+@book{christensen2006log,
+	title={Log-linear models and logistic regression},
+	author={Christensen, Ronald},
+	year={2006},
+	publisher={Springer Science \& Business Media}
+}
+
+@article{GoldbergL14,
+	author    = {Yoav Goldberg and
+	Omer Levy},
+	title     = {{word2vec Explained: deriving Mikolov et al.'s negative{-}sampling word{-}embedding method}},
+	journal   = {CoRR},
+	volume    = {abs/1402.3722},
+	year      = {2014},
+	url       = {http://arxiv.org/abs/1402.3722},
+	archivePrefix = {arXiv},
+	eprint    = {1402.3722},
+}
+@inproceedings{QuocLe2014,
+	Author        = {Quoc V. Le and Tomas Mikolov},
+	Title         = {Distributed Representations of Sentences and Documents},
+	Booktitle     = {Proceedings of the 31th International Conference on Machine Learning, {ICML} 2014, Beijing, China, 21-26 June 2014},
+	Pages         = {1188--1196},
+	Year          = {2014},
+}
+@article{Bojanowski2017,
+	author    = {Piotr Bojanowski and Edouard Grave and Armand Joulin and Tomas Mikolov},
+	Title         = {Enriching Word Vectors with Subword Information},
+	Journal       = {Transactions of the Association for Computational Linguistics - {TACL}},
+	Volume        = {5},
+	Pages         = {135--146},
+	Year          = {2017},
+	url       = {https://transacl.org/ojs/index.php/tacl/article/view/999}
+}
+
+@inproceedings{Joulin2017,
+	Author        = {Armand Joulin and Edouard Grave and Tomas Mikolov and  Piotr Bojanowski},
+	Title         = {Bag of Tricks for Efficient Text Classification},
+	Booktitle     = {Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics, {EACL} 2017, Valencia, Spain, April 3-7, 2017, Volume 2: Short Papers},
+	Pages         = {427--431},
+	Year          = {2017},
+}
+@article{Mikolov2013,
+	Author        = {Tomas Mikolov and Kai Chen and Greg Corrado and Jeffrey Dean},
+	Title         = {Efficient Estimation of Word Representations in Vector Space},
+	Journal       = {CoRR},
+	Volume        = {abs/1301.3781},
+	Year          = {2013}
+}
+@inproceedings{Mikolov2010RRN_Language,
+	Author        = {Tomas Mikolov and Martin Karafi{\'{a}}t and Luk{\'{a}}s Burget and Jan Cernock{\'{y}} and Sanjeev Khudanpur},
+	Title         = {Recurrent neural network based language model},
+	Booktitle     = {{INTERSPEECH} 11th Annual Conference of the International Speech Communication Association,  Japan},
+	Pages         = {1045--1048},
+	Year          = {2010},
+	Month         = {09}
+}
+
+
+@InProceedings{Kim2014,
+	Author        = {Yoon Kim},
+	Title         = {{Convolutional Neural Networks for Sentence Classification}},
+	Booktitle     = {{Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing, {EMNLP} 2014, October 25-29, 2014, Doha, Qatar, {A} meeting of SIGDAT, a Special Interest Group of the {ACL}},},
+	Year          = {2014},
+	Editor        = {{Alessandro Moschitti and Bo Pang and Walter Daelemans}},
+	Pages         = {1746--1751},
+	Doi           = {10.3115/v1/D14-1181},
+}
+@article{Collobert2011NLP,
+	Author        = {Ronan Collobert and Jason Weston and L{\'e}on Bottou and Michael Karlen and Koray Kavukcuoglu and Pavel Kuksa},
+	Title         = {Natural Language Processing (Almost) from Scratch},
+	Journal       = {The Journal of Machine Learning Research},
+	Issue_date    = {2/1/2011},
+	Volume        = {12},
+	Month         = nov,
+	Year          = {2011},
+	Issn          = {1532-4435},
+	Pages         = {2493--2537},
+	Numpages      = {45},
+	Publisher     = {JMLR.org},
+}
+
+@article{lecun1998gradient,
+	title={Gradient-based learning applied to document recognition},
+	author={LeCun, Yann and Bottou, L{\'e}on and Bengio, Yoshua and Haffner, Patrick},
+	journal={Proceedings of the IEEE},
+	volume={86},
+	number={11},
+	pages={2278--2324},
+	year={1998},
+	publisher={IEEE}
+}
+
+@article{elman1990finding,
+	title={Finding structure in time},
+	author={Elman, Jeffrey L},
+	journal={Cognitive science},
+	volume={14},
+	number={2},
+	pages={179--211},
+	year={1990},
+	publisher={Wiley Online Library}
+}
+
+
+
+
+@phdthesis{MikolovThesis2012,
+	author = {Tomas Mikolov},
+	school = {Brno University of Technology},
+	timestamp = {2014-12-13T11:56:31.000+0100},
+	title = {Statistical language models based on neural networks},
+	year = 2012,
+	url= {http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf}
+}
+
+@inproceedings{PascanuMB13,
+	author    = {Razvan Pascanu and
+	Tomas Mikolov and
+	Yoshua Bengio},
+	title     = {On the difficulty of training recurrent neural networks},
+	booktitle = {Proceedings of the 30th International Conference on Machine Learning,
+	{ICML} 2013, Atlanta, GA, USA, 16-21 June 2013},
+	series    = {{JMLR} Workshop and Conference Proceedings},
+	volume    = {28},
+	pages     = {1310--1318},
+	publisher = {JMLR.org},
+	year      = {2013},
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FUNDAMENTACAO TEÓRICA DE ATRIBUIÇÃO AUTORAL
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@misc{Mosteller1963,
+	Author        = {Frederick Mosteller and David L. Wallace},
+	Booktitle     = {Journal of the American Statistical Association},
+	Doi           = {10.1080/01621459.1963.10500849},
+	Issn          = {1537274X},
+	Number        = {302},
+	Pages         = {275--309},
+	Title         = {{Inference in an Authorship Problem}},
+	Volume        = {58},
+	Year          = {1963}
+}
+
+@article{KjellWF94,
+	author    = {Bradley Kjell and
+	W. Addison Woods and
+	Ophir Frieder},
+	title     = {Discrimination of Authorship Using Visualization},
+	journal   = {Inf. Process. Manage.},
+	volume    = {30},
+	number    = {1},
+	pages     = {141--150},
+	year      = {1994},
+	doi       = {10.1016/0306-4573(94)90029-9},
+}
+@inproceedings{Keselj2003,
+	Author        = {Vlado Ke{\v{s}}elj and Fuchun Peng and Nick Cercone and Calvin Thomas},
+	Doi           = {10.1.1.9.7388},
+	booktitle     = {Proceedings of the conference pacific association for computational linguistics (PACLING)},
+	Pages         = {255--264},
+	volume	= {3},
+	Title         = {{N-Gram-Based Author Profiles for Authorship Attribution}},
+	Year          = {2003}
+}
+
+
+@article{Koppel2007,
+	Author        = {Moshe Koppel and Jonathan Schler and Elisheva Bonchek-Dokow},
+	Issn          = {1532-4435},
+	Journal       = {Journal of Machine Learning Research},
+	Pages         = {1261--1276},
+	Title         = {{Measuring differentiability: unmasking pseudonymous authors}},
+	Volume        = {8},
+	Year          = {2007}
+}
+@article{Kestemont2014,
+	Author        = {Mike Kestemont},
+	Doi           = {10.3115/v1/W14-0908},
+	Journal       = {3rd Workshop on Computational Linguistics for Literature (CLfL 2014)},
+	Number        = {January 2014},
+	Pages         = {59--66},
+	Title         = {{Function Words in Authorship Attribution From Black Magic to Theory ?}},
+	Year          = {2014}
+}
+
+@article{Koppel2012,
+	Author        = {Moshe Koppel and Jonathan Schler and Shlomo Argamon and Yaron Winter},
+	Doi           = {10.1080/0013838X.2012.668794},
+	Issn          = {0013838X},
+	Journal       = {English Studies},
+	Number        = {3},
+	Pages         = {284--291},
+	Title         = {{The "Fundamental Problem" of Authorship Attribution}},
+	Volume        = {93},
+	Year          = {2012}
+}
+@inproceedings{aa-Sapkota2015,
+	Author        = {Upendra Sapkota and Steven Bethard and Manuel Montes{-}y{-}G{\'{o}}mez and Thamar Solorio},
+	Title         = {Not All Character N-grams Are Created Equal: {A} Study in Authorship Attribution},
+	Booktitle     = {{NAACL} {HLT} 2015, The 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Denver, Colorado, USA},
+	Pages         = {93--102},
+	Year          = {2015}
+}
+
+@article{Savoy2016,
+	Author        = {Jacques Savoy},
+	Doi           = {10.1002/asi.23455},
+	Issn          = {23301643},
+	Journal       = {Journal of the Association for Information Science and Technology},
+	Number        = {6},
+	Pages         = {1462--1472},
+	Title         = {{Estimating the probability of an authorship attribution}},
+	Volume        = {67},
+	Year          = {2016}
+}
+
+@article{Savoy2012,
+	Author        = {Jacques Savoy},
+	Doi           = {10.1145/2180868.2180874},
+	Isbn          = {1046-8188},
+	Issn          = {10468188},
+	Journal       = {ACM Transactions on Information Systems},
+	Number        = {2},
+	Pages         = {1--30},
+	Title         = {{Authorship Attribution Based on Specific Vocabulary}},
+	Volume        = {30},
+	Year          = {2012}
+}
+@article{Koppel2004,
+	Author        = {Moshe Koppel and Jonathan Schler},
+	Doi           = {10.1145/1015330.1015448},
+	Isbn          = {1581138285},
+	Journal       = {Twenty-first international conference on Machine learning - ICML '04},
+	Pages         = {62},
+	Title         = {{Authorship verification as a one-class classification problem}},
+	Year          = {2004}
+}
+
+@article{Stamatatos2013robustness,
+	title={On the robustness of authorship attribution based on character n-gram features},
+	author={Stamatatos, Efstathios},
+	journal={Journal of Law and Policy},
+	volume={21},
+	number={2},
+	pages={421--439},
+	year={2013}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PRINCIPAIS TRABALHOS EM SIMILARIDADE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{Burrows2002,
+	Author        = {John Burrows},
+	Doi           = {10.1093/llc/17.3.267},
+	Isbn          = {0268-1145},
+	Issn          = {0268-1145},
+	Journal       = {Literary and Linguistic Computing},
+	Number        = {3},
+	Pages         = {267--287},
+	Title         = {{'Delta': a measure of stylistic difference and a guide to likely authorship}},
+	Volume        = {17},
+	Year          = {2002}
+}
+
+@inproceedings{Evert2015a,
+	author    = {Stefan Evert and
+	Thomas Proisl and
+	Thorsten Vitt and
+	Christof Sch{\"{o}}ch and
+	Fotis Jannidis and
+	Steffen Pielstr{\"{o}}m},
+	title     = {Towards a better understanding of Burrows's Delta in literary authorship
+	attribution},
+	booktitle = {Proceedings of the Fourth Workshop on Computational Linguistics for
+	Literature, CLfL@NAACL-HLT 2015, June 4, 2015, Denver, Colorado, {USA}},
+	pages     = {79--88},
+	year      = {2015},
+	
+}
+
+
+@article{AA_delta2017,
+	Author        = {Stefan Evert and Thomas Proisl and Fotis Jannidis and Isabella Reger and Steffen Pielstr{\"{o}}m and  Christof Sch{\"{o}}ch and Thorsten Vitt},
+	Title         = {Understanding and explaining Delta measures for authorship attribution},
+	Journal       = {{Digital Scholarship in the Humanities}},
+	Volume        = {32},
+	Number        = {suppl{\_}2},
+	Pages         = {ii4--ii16},
+	Year          = {2017},
+}
+@article{Kocher2017Verificacao,
+	Author        = {Mirco Kocher and  Jacques Savoy},
+	Title         = {A simple and efficient algorithm for authorship verification},
+	Journal       = {Journal of the Association for Information Science and Technology},
+	Volume        = {68},
+	Number        = {1},
+	Pages         = {259--269},
+	Year          = {2017},
+}
+@inproceedings{Potha2017,
+	author    = {Nektaria Potha and Efstathios Stamatatos},
+	title     = {An Improved Impostors Method for Authorship Verification},
+	booktitle = {Experimental {IR} Meets Multilinguality, Multimodality, and Interaction - 8th International Conference of the {CLEF} Association, {CLEF} 2017, Dublin, Ireland, September 11-14},
+	pages     = {138--144},
+	year      = {2017}
+}
+@article{Kestemont2012cross,
+	Title         = {Cross-genre authorship verification using unmasking},
+	Author        = {Mike Kestemont and Kim Luyckx and Walter Daelemans and Thomas Crombez},
+	Journal       = {English Studies},
+	Volume        = {93},
+	Number        = {3},
+	Pages         = {340--356},
+	Year          = {2012},
+	Publisher     = {Taylor \& Francis}
+}
+@article{Koppel2013,
+	Archiveprefix = {arXiv},
+	Arxivid       = {0803.1716},
+	Author        = {Moshe Koppel and Yaron Winter},
+	Doi           = {10.1002/asi.22954},
+	Isbn          = {9783848215430},
+	Issn          = {15322882},
+	Journal       = {Journal of the American Society for Information Science and Technology},
+	Number        = {1},
+	Pages         = {178--187},
+	Title         = {{Determining if two documents are written by the same author}},
+	Volume        = {65},
+	Year          = {2013}
+}
+@InProceedings{Sapkota2013,
+	Author        = {Upendra Sapkota and Thamar Solorio and Manuel Montes Gomez and Paolo Rosso},
+	Title         = {{The use of orthogonal similarity relations in the prediction of authorship}},
+	Booktitle     = {{Computational Linguistics and Intelligent Text Processing - 14th International Conference, CICLing 2013, Samos, Greece, March 24-30, 2013, Proceedings, Part {II}}},
+	Year          = {2013},
+	Volume        = {7817 LNCS},
+	Number        = {PART 2},
+	Pages         = {463--475}
+}
+
+@article{Labbe2007experiments,
+	title={Experiments on authorship attribution by intertextual distance in English},
+	author={Labb{\'e}, Dominique},
+	journal={Journal of Quantitative Linguistics},
+	volume={14},
+	number={1},
+	pages={33--80},
+	year={2007},
+	publisher={Taylor \& Francis}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PRINCIPAIS REVISÕES SISTEMÁTICAS E SURVEYS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{aa-rocha-2017,
+	Author        = {Anderson Rocha and Walter J. Scheirer and Christopher W. Forstall and Thiago Cavalcante and Antonio Theophilo and Bingyu Shen and Ariadne Carvalho and Efstathios Stamatatos},
+	Doi           = {10.1109/TIFS.2016.2603960},
+	Isbn          = {1556-6013 VO - 12},
+	Issn          = {15566013},
+	Journal       = {IEEE Transactions on Information Forensics and Security},
+	Number        = {1},
+	Pages         = {5--33},
+	Title         = {{Authorship Attribution for Social Media Forensics}},
+	Volume        = {12},
+	Year          = {2017}
+}
+@article{Stamatatos2009,
+	Author        = {Efstathios Stamatatos},
+	Title         = {{A survey of modern authorship attribution methods}},
+	Doi           = {10.1002/asi.21001},
+	Issn          = {15322882},
+	Journal       = {Journal of the American Society for Information Science and Technology},
+	Number        = {3},
+	Pages         = {538--556},
+	Volume        = {60},
+	Year          = {2009}
+}
+@article{Koppel2009,
+	Author        = {Moshe Koppel and Jonathan Schler and Shlomo Argamon},
+	Doi           = {10.1002/asi},
+	Isbn          = {9783848215430},
+	Issn          = {19335954},
+	Journal       = {Journal of the Association for Information Science and Technology},
+	Number        = {1},
+	Pages         = {9----26},
+	Title         = {{Computational Methods in Authorship Attribution}},
+	Volume        = {60},
+	Year          = {2009}
+}
+@article{Qian2015,
+	Author        = {Tie Yun Qian and Bing Liu and Qing Li and Jianfeng Si},
+	Doi           = {10.1007/s11390-015-1513-6},
+	Isbn          = {1139001515},
+	Issn          = {10009000},
+	Journal       = {Journal of Computer Science and Technology},
+	Number        = {1},
+	Pages         = {200--213},
+	Title         = {{Review Authorship Attribution in a Similarity Space}},
+	Volume        = {30},
+	Year          = {2015}
+}
+
+@article{Neal2017,
+	author    = {Tempestt J. Neal and
+	Kalaivani Sundararajan and
+	Aneez Fatima and
+	Yiming Yan and
+	Yingfei Xiang and
+	Damon L. Woodard},
+	title     = {Surveying Stylometry Techniques and Applications},
+	journal   = {{ACM} Comput. Surv.},
+	volume    = {50},
+	number    = {6},
+	pages     = {86:1--86:36},
+	year      = {2017},
+	doi       = {10.1145/3132039}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ARTIGOS OVERVIEW DO PAN-CLEF
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{aa-overview-2018,
+	Author        = {Mike Kestemont and Michael Tschugnall and Efstathios Stamatatos and Walter Daelemans and Gunther Specht and Benno Stein and Martin Potthast},
+	Title         = {{Overview of the Author Identification Task at PAN-2018: Cross-domain Authorship Attribution and Style Change Detection}},
+	Booktitle     = {Working Notes Papers of the CLEF 2018 Evaluation Labs},
+	Editor        = {Linda Cappellato and Nicola Ferro and Jian-Yun Nie and Laure Soulier},
+	Issn          = {1613-0073},
+	Month         = sep,
+	Publisher     = {CLEF and CEUR-WS.org},
+	Series        = {CEUR Workshop Proceedings},
+	Year          = {2018}
+}
+
+@Article{Potthast2017,
+	author  = {Martin Potthast and Francisco Rangel and Michael Tschuggnall and Efstathios Stamatatos and Paolo Rosso and Benno Stein},
+	title   = {{Overview of PAN'17: Author identification, author profiling, and author obfuscation}},
+	journal = {Lecture Notes in Computer Science},
+	year    = {2017},
+	volume  = {10456 LNCS},
+	pages   = {275--290},
+	issn    = {16113349},
+	doi     = {10.1007/978-3-319-65813-1_25},
+	isbn    = {9783319658124},
+}
+@inproceedings{Tschuggnall2017,
+	Author        = {Michael Tschuggnall and Efstathios Stamatatos and Ben Verhoeven and Walter Daelemans and G{\"{u}}nther Specht and Benno Stein and Martin Potthast},
+	Title         = {Overview of the Author Identification Task at {PAN-2017:} Style Breach  Detection and Author Clustering},
+	Booktitle     = {Working Notes of {CLEF}},
+	Year          = {2017},
+}
+@inproceedings{Tschuggnall2017a,
+	Author        = {Matthias Hagen and Martin Potthast and Benno Stein},
+	Booktitle     = {CEUR Workshop Proceedings},
+	Editor        = {{Mandl T. Ferro N.}, Goeuriot L Cappellato L},
+	Issn          = {16130073},
+	Publisher     = {CEUR-WS},
+	Title         = {{Overview of the author obfuscation task at PAN 2017: Safety evaluation revisited}},
+	Volume        = {1866},
+	Year          = {2017}
+}
+@article{aa-overview-2015,
+	Author        = {Efstathios Stamatatos and Martin Potthast and Francisco Rangel and Paolo Rosso and Benno Stein},
+	Doi           = {10.1007/978-3-319-24027-5_49},
+	Isbn          = {9783319240268},
+	Issn          = {16113349},
+	Journal       = {Lecture Notes in Computer Science},
+	Pages         = {518--538},
+	Title         = {{Overview of the PAN/CLEF 2015 evaluation lab}},
+	Volume        = {9283},
+	Year          = {2015}
+}
+@inproceedings{aa-overview-2014,
+	Author        = {Efstathios Stamatatos and Walter Daelemans and Ben Verhoeven and Benno Stein and Martin Potthast and Patrick Juola and Miguel A. S{\'{a}}nchez{-}P{\'{e}}rez and Alberto Barr{\'{o}}n{-}Cede{\~{n}}o},
+	Title         = {Overview of the Author Identification Task at {PAN} 2014},
+	Booktitle     = {Working Notes for {CLEF} 2014 Conference, Sheffield, UK, September    15-18, 2014.},
+	Pages         = {877--897},
+	Year          = {2014},
+}
+@inproceedings{aa-overview-2013,
+	Author        = {Patrick Juola and Efstathios Stamatatos},
+	Title         = {Overview of the Author Identification Task at {PAN} 2013},
+	Booktitle     = {Working Notes for {CLEF} 2013 Conference , Valencia, Spain, September  23-26, 2013.},
+	Year          = {2013},
+}
+
+@InProceedings{profiling-overview-2013,
+	Author        = {Francisco Rangel and Paolo Rosso and Moshe Koppel and Efstathios Stamatatos and Giacomo Inches},
+	Title         = {{Overview of the author profiling task at PAN 2013}},
+	Booktitle     = {CLEF Conference on Multilingual and Multimodal Information Access Evaluation},
+	Year          = {2013},
+	Pages         = {352--365},
+	Organization  = {CELCT},
+}
+@article{aa-overview-2011,
+	Author        = {Shlomo Argamon and Patrick Juola},
+	Isbn          = {978-88-904810-1-7},
+	Issn          = {16130073},
+	Journal       = {CEUR Workshop Proceedings},
+	Title         = {{Overview of the international authorship identification competition at PAN-2011}},
+	Volume        = {1177},
+	Year          = {2011}
+}
+
+@InProceedings{Rosso2016,
+	author    = {Paolo Rosso and Francisco M. Rangel Pardo and Martin Potthast and Efstathios Stamatatos and Michael Tschuggnall and Benno Stein},
+	title     = {{Overview of PAN'16 - New Challenges for Authorship Analysis: Cross-Genre Profiling, Clustering, Diarization, and Obfuscation}},
+	booktitle = {Experimental {IR} Meets Multilinguality, Multimodality, and Interaction - 7th International Conference of the {CLEF} Association, {CLEF} 2016, {\'{E}}vora, Portugal, September 5-8, 2016, Proceedings},
+	year      = {2016},
+	pages     = {332--350},
+}
+@article{Gollub2012,
+	Author        = {Tim Gollub and Steven Burrows and Benno Stein},
+	Isbn          = {978-0-473-22025-9},
+	Journal       = {SIGIR 12 Workshop on Open Source Information Retrieval (OSIR 12)},
+	Pages         = {52--55},
+	Title         = {{First Experiences with TIRA for Reproducible Evaluation in Information Retrieval}},
+	Year          = {2012}
+}
+
+@InProceedings{aa-overview-2012,
+	author    = {Patrick Juola},
+	title     = {{An Overview of the Traditional Authorship Attribution Subtask Notebook for PAN at CLEF 2012}},
+	booktitle = {Working Notes for {CLEF} 2013 Conference},
+	year      = {2012},
+	number    = {January 2013},
+	pages     = {37--41},
+	isbn      = {978-88-904810-3-1},
+	issn      = {2038-4963},
+	journal   = {Working Notes for CLEF},
+}
+@inproceedings{aa-overview-2010,
+	Author        = {Martin Potthast and Alberto Barr{\'{o}}n-Cede{\~{n}}o and Andreas Eiselt and Benno Stein and Paolo Rosso},
+	Booktitle     = {Working Notes Papers of the CLEF 2010 Evaluation Labs},
+	Isbn          = {978-88-904810-2-4},
+	Issn          = {2038-4963},
+	Month         = {sep},
+	Title         = {{Overview of the 2nd International Competition on Plagiarism Detection}},
+	Year          = {2010}
+}
+@article{Potthast2009,
+	Author        = {Martin Potthast and Benno Stein and Andreas Eiselt and Alberto Barr{\'{o}}n-Cede{\~{n}}o and Paolo Rosso},
+	Issn          = {1613-0073},
+	Journal       = {Proceedings of the SEPLN'09 Workshop on Uncovering Plagiarism, Authorship and Social Software Misuse (PAN 09)},
+	Pages         = {1--9},
+	Title         = {{Overview of the 1st International Competition on Plagiarism Detection}},
+	Year          = {2009}
+}
+@article{Stein2009,
+	Author        = {Benno Stein and Paolo Rosso and Efsthatios Stamatos and Moshe Koppel and Eneko Aguirre},
+	Isbn          = {978-960-6843-08-2},
+	Issn          = {1613-0073},
+	Journal       = {Proceedings of the SEPLN'09 Workshop on Uncovering Plagiarism, Authorship and Social Software Misuse},
+	Pages         = {1--77},
+	Title         = {{Uncovering Plagiarism, Authorship and Social Software Misuse}},
+	Year          = {2009}
+}
+@article{Stein2007,
+	Author        = {Benno Stein and Moshe Koppel and Efstathios Stamatatos},
+	Title         = {{Plagiarism Analysis, Authorship Identification, and Near-duplicate Detection PAN'07}},
+	Doi           = {10.1145/1328964.1328976},
+	Issn          = {0163-5840},
+	Journal       = {SIGIR Forum},
+	Month         = {dec},
+	Number        = {2},
+	Pages         = {68--71},
+	Publisher     = {ACM},
+	Volume        = {41},
+	Year          = {2007}
+}
+
+@inproceedings{aa-overview-2008,
+	Address       = {Patras, Greece},
+	Author        = {Alberto Barr{\'{o}}n-Cede{\~{n}}o and Paolo Rosso and David Pinto and Alfons Juan and Eugenex Creswick and Emi Fujioka and Terrance Goan and Thomas Lavergne and Tanguy Urvoy and Francois Yvon},
+	Booktitle     = {Pan},
+	Editor        = {Benno Stein and Efstathios Stamatatos and Moshe Koppel},
+	Title         = {{Proceedings of the ECAI08 Workshop on Uncovering Plagiarism, Authorship and Social Software Misuse}},
+	Volume        = {377},
+	Year          = {2008}
+}
+@INPROCEEDINGS{tira2014,
+	Address       = {Berlin Heidelberg New York},
+	Author        = {Martin Potthast and Tim Gollub and Francisco Rangel and Paolo Rosso and Efstathios Stamatatos and Benno Stein},
+	Booktitle     = {Information Access Evaluation meets Multilinguality, Multimodality, and Visualization. 5th International Conference of the CLEF Initiative (CLEF 14)},
+	Doi           = {10.1007/978-3-319-11382-1_22},
+	Editor        = {Evangelos Kanoulas and Mihai Lupu and Paul Clough and Mark Sanderson and Mark Hall and Allan Hanbury and Elaine Toms},
+	Isbn          = {978-3-319-11381-4},
+	Month         = sep,
+	Pages         = {268-299},
+	Publisher     = {Springer},
+	Title         = {{Improving the Reproducibility of PAN's Shared Tasks: Plagiarism Detection, Author Identification, and Author Profiling}},
+	Year          = {2014}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PAN 2018
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@inproceedings{custodioParaboni2018,
+	Author        = {Jos{\'e} Eleandro Cust{\'o}dio and Ivandr{\'e} Paraboni},
+	Title         = {{EACH-USP Ensemble Cross-domain Authorship Attribution: Notebook for PAN at CLEF 2018}},
+	Booktitle     = {Working Notes Papers of the CLEF 2018 Evaluation Labs},
+	Editor        = {Linda Cappellato and Nicola Ferro and Jian-Yun Nie and Laure Soulier},
+	Issn          = {1613-0073},
+	Month         = sep,
+	Publisher     = {CLEF and CEUR-WS.org},
+	Series        = {CEUR Workshop Proceedings},
+	Year          = {2018}
+}
+@inproceedings{Lukaszgagala2018,
+	Author        = {Łukasz Gągała},
+	Title         = {{Authorship Attribution with Neural Networks and Multiple Features: Notebook for PAN at CLEF 2018}},
+	Booktitle     = {Working Notes Papers of the CLEF 2018 Evaluation Labs},
+	Editor        = {Linda Cappellato and Nicola Ferro and Jian-Yun Nie and Laure Soulier},
+	Issn          = {1613-0073},
+	Month         = sep,
+	Publisher     = {CLEF and CEUR-WS.org},
+	Series        = {CEUR Workshop Proceedings},
+	Year          = {2018}
+}
+@inproceedings{Yigal2018,
+	Author        = {Yaakov HaCohen-Kerner and Daniel Miller and Yair Yigal and Elyashiv Shayovitz},
+	Title         = {{Cross-domain Authorship Attribution: Author Identification using Char Sequences, Word Uni-grams, and POS-tags Features: Notebook for PAN at CLEF 2018}},
+	Booktitle     = {Working Notes Papers of the CLEF 2018 Evaluation Labs},
+	Editor        = {Linda Cappellato and Nicola Ferro and Jian-Yun Nie and Laure Soulier},
+	Issn          = {1613-0073},
+	Month         = sep,
+	Publisher     = {CLEF and CEUR-WS.org},
+	Series        = {CEUR Workshop Proceedings},
+	Year          = {2018}
+}
+@inproceedings{Halvani2018,
+	Author        = {Oren Halvani and Lukas Graner},
+	Title         = {{Cross-Domain Authorship Attribution Based on Compression: Notebook for PAN at CLEF 2018}},
+	Booktitle     = {Working Notes Papers of the CLEF 2018 Evaluation Labs},
+	Editor        = {Linda Cappellato and Nicola Ferro and Jian-Yun Nie and Laure Soulier},
+	Issn          = {1613-0073},
+	Month         = sep,
+	Publisher     = {CLEF and CEUR-WS.org},
+	Series        = {CEUR Workshop Proceedings},
+	Year          = {2018}
+}
+@inproceedings{LopezAnguita2018,
+	Author        = {Rocío L{\'o}pez-Anguita and Arturo Montejo-R{\'a}ez and Manuel C. D{\'i}az-Galiano},
+	Title         = {{Complexity Measures and POS n-grams for Author Identification in Several Languages: SINAI at PAN@CLEF 2018}},
+	Booktitle     = {Working Notes Papers of the CLEF 2018 Evaluation Labs},
+	Editor        = {Linda Cappellato and Nicola Ferro and Jian-Yun Nie and Laure Soulier},
+	Issn          = {1613-0073},
+	Month         = sep,
+	Publisher     = {CLEF and CEUR-WS.org},
+	Series        = {CEUR Workshop Proceedings},
+	Year          = {2018}
+}
+
+@InProceedings{MartinDelRodrigues2018,
+	author    = {Carolina Mart{\'i}n Del Campo Rodr{\'i}guez and Helena G{\'o}mez-Adorno and Grigori Sidorov and Ildar Batyrshin},
+	title     = {{CIC-GIL Approach to Cross-domain Authorship Attribution: Notebook for PAN at CLEF 2018}},
+	booktitle = {CEUR Workshop Proceedings},
+	year      = {2018},
+}
+@inproceedings{Murauer2018,
+	Author        = {Benjamin Murauer and Michael Tschuggnall and G{\"o}nther Specht},
+	Title         = {{Dynamic Parameter Search for Cross-Domain Authorship Attribution: Notebook for PAN at CLEF 2018}},
+	Booktitle     = {Working Notes Papers of the CLEF 2018 Evaluation Labs},
+	Editor        = {Linda Cappellato and Nicola Ferro and Jian-Yun Nie and Laure Soulier},
+	Issn          = {1613-0073},
+	Month         = sep,
+	Publisher     = {CLEF and CEUR-WS.org},
+	Series        = {CEUR Workshop Proceedings},
+	Year          = {2018}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NOTEBOOKS PAN-CLEF
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@InProceedings{Gomezadorno2017,
+	author    = {Helena Gomez-Adorno and Yuridiana Aleman and Darnes Vilarino and Miguel A Sanchez-Perez and David Pinto and Grigori Sidorov},
+	title     = {{Author Clustering using Hierarchical Clustering Analysis - Notebook for PAN at CLEF 2017}},
+	booktitle = {CLEF 2017 Evaluation Labs and Workshop – Working Notes Papers},
+	year      = {2017},
+}
+@inproceedings{Moreau2015,
+	Author        = {Erwan Moreau and Arun Jayapal and Gerard Lynch and Carl Vogel},
+	Title         = {Author Verification: Basic Stacked Generalization Applied To Predictions from a Set of Heterogeneous Learners - Notebook for {PAN} at {CLEF} 2015},
+	Booktitle     = {Working Notes of {CLEF} 2015 - Conference and Labs of the Evaluation forum, Toulouse, France, September 8-11, 2015.},
+	Year          = {2015}
+}
+@InProceedings{Jankowska2013,
+	Author        = {Magdalena Jankowska and Vlado Keselj and Evangelos E. Milios},
+	Title         = {{Proximity Based One-class Classification with Common N-Gram Dissimilarity for Authorship Verification Task Notebook for {PAN} at {CLEF} 2013}},
+	Booktitle     = {Working Notes for {CLEF} 2013 Conference , Valencia, Spain, September 23-26, 2013.},
+	Year          = {2013},
+}
+@InProceedings{Vartapetiance2013,
+	Author        = {Anna Vartapetiance and Lee Gillam},
+	Title         = {{A textual modus operandi: Surrey's simple system for author identification: Notebook for PAN at CLEF 2013}},
+	Booktitle     = {CEUR Workshop Proceedings},
+	Year          = {2013},
+	Volume        = {1179},
+	Issn          = {16130073},
+}
+@InProceedings{Ledesma2013,
+	Author        = {Paola Ledesma and Gibran Fuentes and Gabriela Jasso and Angel Toledo and Iv{\'{a}}n Meza},
+	Title         = {{Distance Learning for Author Verification Notebook for {PAN} at {CLEF} 2013}},
+	Booktitle     = {Working Notes for {CLEF} 2013 Conference , Valencia, Spain, September 23-26, 2013.},
+	Year          = {2013},
+}
+
+@inproceedings{Khonji2014,
+	Author        = {Mahmoud Khonji and Youssef Iraqi},
+	Title         = {A Slightly-modified GI-based Author-verifier with Lots of Features {(ASGALF)}},
+	Booktitle     = {Working Notes for {CLEF} 2014 Conference, Sheffield, UK, September 15-18, 2014.},
+	Pages         = {977--983},
+	Year          = {2014}
+}
+@inproceedings{Posadas-Duran2015,
+	Author        = {Juan Pablo Posadas{-}Dur{\'{a}}n and Grigori Sidorov and Ildar Z. Batyrshin and Elibeth Mirasol{-}Mel{\'{e}}ndez},
+	Title         = {Author Verification Using Syntactic N-grams: Notebook for {PAN} at {CLEF} 2015},
+	Booktitle     = {Working Notes of {CLEF} 2015 - Conference and Labs of the Evaluation forum, Toulouse, France, September 8-11, 2015.},
+	Year          = {2015},
+}
+
+
+@article{Seidman2013,
+	Author        = {Shachar Seidman},
+	Issn          = {16130073},
+	Journal       = {CEUR Workshop Proceedings},
+	Pages         = {13--16},
+	Title         = {{Authorship verification using the impostors method: Notebook for PAN at CLEF 2013}},
+	Volume        = {1179},
+	Year          = {2013}
+}
+@article{Sari2016,
+	Author        = {Yunita Sari and Mark Stevenson},
+	Issn          = {16130073},
+	Journal       = {CEUR Workshop Proceedings},
+	Title         = {{Exploring Word Embeddings and Character N -Grams for Author Clustering Notebook for PAN at CLEF 2016}},
+	Year          = {2016}
+}
+
+@article{Vilarino2013,
+	Author        = {Darnes Vilari{\~{n}}o and David Pinto and Helena G{\'{o}}mez-Adorno and Sa{\'{u}}l Le{\'{o}}n and Esteban Castillo},
+	Issn          = {16130073},
+	Journal       = {CEUR Workshop Proceedings},
+	Title         = {{Lexical-syntactic and graph-based features for authorship verification: Notebook for PAN at CLEF 2013}},
+	Volume        = {1179},
+	Year          = {2013}
+}
+@article{Bobicev2013,
+	Author        = {Victoria Bobicev},
+	Issn          = {16130073},
+	Journal       = {CEUR Workshop Proceedings},
+	Title         = {{Authorship detection with PPM: Notebook for PAN at CLEF 2013}},
+	Volume        = {1179},
+	Year          = {2013}
+}
+@article{Bartoli2015,
+	Author        = {Alberto Bartoli and Alex Dagri and Andrea De Lorenzo and Eric Medvet and Fabiano Tarlao},
+	Issn          = {16130073},
+	Journal       = {CEUR Workshop Proceedings},
+	Pages         = {1--7},
+	Title         = {{An Author Verification Approach Based on Differential Features Notebook for PAN at CLEF 2015}},
+	Year          = {2015}
+}
+@inproceedings{Solorzano2015,
+	Author        = {Juli{\'{a}}n Sol{\'{o}}rzano{-}Soto and Victor Mijangos and Alejandro Pimentel and Fernanda L{\'{o}}pez{-}Escobedo and Azucena Montes and Gerardo Sierra},
+	Title         = {Authorship Verification by combining SVMs with Kernels Optimized for Different Feature Categories},
+	Booktitle     = {Working Notes of {CLEF} 2015 - Conference and Labs of the Evaluation forum, Toulouse, France, September 8-11, 2015.},
+	Year          = {2015},
+}
+@inproceedings{Bagnall2015,
+	Author        = {Douglas Bagnall},
+	Booktitle     = {CEUR Workshop Proceedings},
+	Editor        = {{Jones G.J.F. Cappellato L.}, Ferro N San Juan E},
+	Eprint        = {1506.04891},
+	Issn          = {16130073},
+	Pages         = {1--9},
+	Publisher     = {CEUR-WS},
+	Title         = {{Author identification using multi-headed recurrent neural networks}},
+	Volume        = {1391},
+	Year          = {2015}
+}
+
+@inproceedings{Bagnall2016,
+	Author        = {Douglas Bagnall},
+	Booktitle     = {CEUR Workshop Proceedings},
+	Editor        = {{Cappellato L. Ferro N.}, Macdonald C Balog K},
+	Eprint        = {1608.04485},
+	Issn          = {16130073},
+	Pages         = {791--804},
+	Publisher     = {CEUR-WS},
+	Title         = {{Authorship clustering using multi-headed recurrent neural networks}},
+	Volume        = {1609},
+	Year          = {2016}
+}
+
+@article{Sapkota2012,
+	Author        = {Upendra Sapkota and Thamar Solorio},
+	Journal       = {CEUR Workshop Proceedings},
+	Pages         = {1--9},
+	Title         = {{Sub-Profiling by Linguistic Dimensions to Solve the Authorship Attribution Task -Notebook of PAN at CLEF 2012}},
+	Year          = {2012}
+}
+
+@inproceedings{Gillam2012quite,
+	author    = {Anna Vartapetiance and
+	Lee Gillam},
+	title     = {Quite Simple Approaches for Authorship Attribution, Intrinsic Plagiarism
+	Detection and Sexual Predator Identification},
+	booktitle = {{CLEF} 2012 Evaluation Labs and Workshop, Online Working Notes, Rome,	Italy, September 17-20, 2012},
+	year      = {2012},
+}
+
+@inproceedings{Ghaeini13,
+	author    = {M. R. Ghaeini},
+	editor    = {Pamela Forner and
+	Roberto Navigli and
+	Dan Tufis and
+	Nicola Ferro},
+	title     = {Intrinsic Author Identification Using Modified Weighted {KNN} Notebook
+	for {PAN} at {CLEF} 2013},
+	booktitle = {Working Notes for {CLEF} 2013 Conference , Valencia, Spain, September
+	23-26, 2013.},
+	series    = {{CEUR} Workshop Proceedings},
+	volume    = {1179},
+	publisher = {CEUR-WS.org},
+	year      = {2013},
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ARTIGOS COM TÉCNICAS NEURAIS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{Gomez2018,
+	Author        = {Helena G{\'{o}}mez Adorno and Juan Pablo Posadas-Dur{\'{a}}n and Grigori Sidorov and David Pinto},
+	Doi           = {10.1007/s00607-018-0587-8},
+	Issn          = {0010485X},
+	Journal       = {Computing},
+	Pages         = {1--16},
+	Publisher     = {Springer-Verlag Wien},
+	Title         = {{Document embeddings learned on various types of n-grams for cross-topic authorship attribution}},
+	Year          = {2018}
+}
+
+@inproceedings{Hitschler2017,
+	Author        = {Julian Hitschler and Esther Van Den Berg and Ines Rehbein},
+	Number        = {2013},
+	Pages         = {53--58},
+	title         = {Authorship Attribution with Convolutional Neural Networks and POS-Eliding},
+	booktitle     = {Proceedings of the Workshop on Stylistic Variation},
+	publisher     = {Association for Computational Linguistics},
+	Year          = {2017},
+	location      = {Copenhagen, Denmark},
+	url           = {http://aclweb.org/anthology/W17-4907}
+}
+
+
+@inproceedings{Mohsen2017,
+	Author        = {Ahmed M. Mohsen and Nagwa M. El-Makky and Nagia Ghanem},
+	Booktitle     = {Proceedings - 2016 15th IEEE International Conference on Machine Learning and Applications, ICMLA 2016},
+	Doi           = {10.1109/ICMLA.2016.45},
+	Isbn          = {9781509061679},
+	Month         = {dec},
+	Pages         = {898--903},
+	Publisher     = {Institute of Electrical and Electronics Engineers Inc.},
+	Title         = {{Author Identification using Deep Learning}},
+	Year          = {2016}
+}
+
+@article{Brocardo2017,
+	Author        = {Marcelo Luiz Brocardo and Issa Traore and Isaac Woungang and Mohammad S. Obaidat},
+	Doi           = {10.1002/dac.3259},
+	Issn          = {10991131},
+	Journal       = {International Journal of Communication Systems},
+	Number        = {12},
+	Title         = {{Authorship verification using deep belief network systems}},
+	Volume        = {30},
+	Year          = {2017}
+}
+
+
+@inproceedings{Alsulami2017,
+	author    = {Bander Alsulami and Edwin Dauber and Richard E. Harang and Spiros Mancoridis and Rachel Greenstadt},
+	title     = {Source Code Authorship Attribution Using Long Short-Term Memory Based	Networks},
+	booktitle = {Computer Security - {ESORICS} 2017 - 22nd European Symposium on Research
+	in Computer Security, Oslo, Norway, September 11-15, 2017, Proceedings,
+	Part {I}},
+	pages     = {65--82},
+	year      = {2017},
+	url       = {https://doi.org/10.1007/978-3-319-66402-6\_6},
+	doi       = {10.1007/978-3-319-66402-6\_6},
+}
+@inproceedings{Sari2017,
+	Author        = {Yunita Sari and Andreas Vlachos and Mark Stevenson},
+	Pages         = {267--273},
+	Publisher     = {Association for Computational Linguistics (ACL)},
+	Title         = {{Continuous N-gram Representations for Authorship Attribution}},
+	Volume        = {2},
+	Year          = {2017},
+	booktitle = {Proceedings of the 15th Conference of the European Chapter of the
+	Association for Computational Linguistics, {EACL} 2017, Valencia,
+	Spain, April 3-7, 2017, Volume 2: Short Papers},
+	
+}
+
+@article{Posadas2017,
+	Title         = {Applications of the distributed document representation in the authorship attribution task for small corpora},
+	Author        = {Juan-Pablo Posadas-Dur{\'a}n and Helena G{\'o}mez-Adorno and Grigori Sidorov and Ildar Batyrshin and David Pinto and Liliana Chanona-Hern{\'a}ndez},
+	Doi           = {10.1007/s00500-016-2446-x},
+	Issn          = {14327643},
+	Journal       = {Soft Computing},
+	Month         = {feb},
+	Number        = {3},
+	Pages         = {627--639},
+	Publisher     = {Springer Verlag},
+	Volume        = {21},
+	Year          = {2017}
+}
+@inproceedings{Shrestha2017,
+	Author        = {Prasha Shrestha and Sebastian Sierra and Fabio González and Paolo Rosso and Manuel Montes-Y-Gómez and Thamar Solorio},
+	Booktitle     = {Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics},
+	Isbn          = {9781510838604},
+	Pages         = {669--674},
+	Publisher     = {Association for Computational Linguistics (ACL)},
+	Title         = {{Convolutional Neural Networks for Authorship Attribution of Short Texts}},
+	Volume        = {2},
+	Year          = {2017}
+}
+
+@Article{Ruder2016,
+	author        = {Sebastian Ruder and Parsa Ghaffari and John Breslin},
+	title         = {{Character-level and Multi-channel Convolutional Neural Networks for Large-scale Authorship Attribution}},
+	journal       = {CoRR},
+	year          = {2016},
+	archiveprefix = {arXiv},
+	arxivid       = {1609.06686},
+	eprint        = {1609.06686},
+}
+@article{Bandara2013,
+	Author        = {Upul Bandara and Gamini Wijayarathna},
+	Doi           = {10.1007/978-3-642-42042-9_46},
+	Isbn          = {9783642420412},
+	Issn          = {03029743},
+	Journal       = {Lecture Notes in Computer Science},
+	Number        = {PART 2},
+	Pages         = {368--375},
+	Title         = {{Deep neural networks for source code author identification}},
+	Volume        = {8227 LNCS},
+	Year          = {2013}
+}
+
+@article{RhodesCS224D,
+	Author        = {Dylan Rhodes},
+	Journal       = {Standford University - CS224D Projects},
+	INSTITUTION =   {Department of Electrical Engineering, Standford University},	
+	Pages         = {1--8},
+	Title         = {{Author Attribution with CNN's}},
+	Year          = {2015}
+}
+
+@article{QianCS224D,
+	Author        = {Chen Qian and Tianchang He and Rao Zhang},
+	Title         = {{Deep Learning based Authorship Identification}},
+	Journal       = {Standford University - CS224D Projects},
+	Pages         = {1--9},	
+	Year          = {2016},
+	MONTH =         {Jan},
+	INSTITUTION =   {Department of Electrical Engineering, Standford University}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ARTIGOS FOCADOS EM DEMAIS TECNICAS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{Seroussi2014,
+	Title         = {Authorship attribution with topic models},
+	Author        = {Yanir Seroussi and Ingrid Zukerman and Fabian Bohnert},
+	Journal       = {Computational Linguistics},
+	Volume        = {40},
+	Number        = {2},
+	Pages         = {269--310},
+	Year          = {2014},
+	Publisher     = {MIT Press}
+}
+@inproceedings{Savoy2013,
+	Author        = {Jacques Savoy},
+	Booktitle     = {Proceedings of the 28th Annual ACM Symposium on Applied Computing - SAC '13},
+	Doi           = {10.1145/2480362.2480541},
+	Isbn          = {9781450316569},
+	Pages         = {939},
+	Title         = {{Feature selections for authorship attribution}},
+	Year          = {2013}
+}
+
+@article{aa-distortion,
+	Author        = {Efstathios Stamatatos},
+	Isbn          = {9781510838604},
+	Journal       = {Conference of the European Chapter of the Association for Computational Linguistics, EACL 2017 - Proceedings of Conference},
+	Title         = {{Authorship attribution using text distortion}},
+	Volume        = {1},
+	Year          = {2017}
+}
+@inproceedings{Markov2017,
+	Author        = {Ilia Markov and Efstathios Stamatatos and Grigori Sidorov},
+	booktitle={Proceedings of the 18th International Conference on Computational Linguistics and Intelligent Text Processing (CICLing 2017)},
+	Title         = {{Improving Cross-Topic Authorship Attribution: The Role of Pre-Processing}},
+	Doi           = {10.1007/978-3-319-77116-8},
+	Year          = {2017}
+}
+
+@InProceedings{Zamani2014,
+	author    = {Hamed Zamani and Hossein Nasr Esfahani and Pariya Babaie and Samira Abnar and Mostafa Dehghani and Azadeh Shakery},
+	title     = {{Authorship Identification Using Dynamic Selection of Features from Probabilistic Feature Set}},
+	booktitle = {Information Access Evaluation. Multilinguality, Multimodality, and Interaction - 5th International Conference of the {CLEF} Initiative, {CLEF} 2014, Sheffield, UK, September 15-18, 2014. Proceedings},
+	year      = {2014},
+	pages     = {128--140},
+	doi       = {10.1007/978-3-319-11382-1\_13},
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ARTIGOS COM APLICACOES DA AA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@inproceedings{Peng2016,
+	Author        = {Jian Peng and Kim-kwang Raymond Choo and Helen Ashman},
+	Booktitle     = {2016 IEEE Trustcom/BigDataSE/ISPA},
+	Doi           = {10.1109/TrustCom.2016.53},
+	Isbn          = {9781509032051},
+	Pages         = {121--128},
+	Title         = {{Astroturfing detection in social media: Using binary n-gram analysis for authorship attribution}},
+	Year          = {2016}
+}
+
+@inproceedings{Chen2011,
+	author    = {Xiaoling Chen and	Peng Hao and	Rajarathnam Chandramouli and	K. P. Subbalakshmi},
+	title     = {Authorship Similarity Detection from Email Messages},
+	booktitle = {Machine Learning and Data Mining in Pattern Recognition - 7th International
+	Conference, {MLDM} 2011, New York, NY, USA, August 30 - September
+	3, 2011. Proceedings},
+	pages     = {375--386},
+	year      = {2011},
+	doi       = {10.1007/978-3-642-23199-5\_28},
+}
+
+@article{Seifollahi2017,
+	Author        = {Sattar Seifollahi and Adil M. Bagirov and Robert Layton and Iqbal Gondal},
+	Title         = {Optimization Based Clustering Algorithms for Authorship Analysis of Phishing Emails},
+	Journal       = {Neural Processing Letters},
+	Volume        = {46},
+	Number        = {2},
+	Pages         = {411--425},
+	Year          = {2017},
+	Doi           = {10.1007/s11063-017-9593-7}
+}
+
+@article{Frantzeskou2006,
+	Author        = {Georgia Frantzeskou and Efstathios Stamatatos and Stefanos Gritzalis and Sokratis Katsikas},
+	Doi           = {10.1007/0-387-34224-9_59},
+	Isbn          = {0387342230},
+	Issn          = {15715736},
+	Journal       = {IFIP International Federation for Information Processing},
+	Pages         = {508--515},
+	Title         = {{Source code author identification based on N-gram author profiles}},
+	Volume        = {204},
+	Year          = {2006}
+}
+@inproceedings{Schwartz2013,
+	Author        = {Roy Schwartz and Oren Tsur and Ari Rappoport and Moshe Koppel},
+	Booktitle     = {Empirical Methods in Natural Language Processing},
+	Isbn          = {9781937284978},
+	Pages         = {1880--1891},
+	Title         = {{Authorship Attribution of Micro-Messages}},
+	Year          = {2013}
+}
+@article{Koppel2018_pseud,
+	Author        = {Moshe Koppel and Shachar Seidman},
+	Title         = {Detecting pseudepigraphic texts using novel similarity measures},
+	Journal       = {Digital Scholarship in the Humanities},
+	Volume        = {33},
+	Number        = {1},
+	Pages         = {72--81},
+	Year          = {2018},
+	Doi           = {10.1093/llc/fqx011},
+}
+
+@inproceedings{Potha2014profile,
+	author    = {Nektaria Potha and Efstathios Stamatatos},
+	title     = {A Profile-Based Method for Authorship Verification},
+	booktitle = {Artificial Intelligence: Methods and Applications - 8th Hellenic Conference on AI, {SETN} 2014, Ioannina, Greece, 15-17},
+	pages     = {313--326},
+	year      = {2014},
+	month     = {04},
+	doi       = {10.1007/978-3-319-07064-3\_25},
+}
+
+@inproceedings{Sapkota2014,
+	Author        = {Upendra Sapkota and Thamar Solorio and Manuel Montes and Steven Bethard and Paolo Rosso},
+	Booktitle     = {Proceedings of COLING 2014, the 25th International Conference on Computational Linguistics: Technical Papers},
+	Isbn          = {9781941643266},
+	Pages         = {1228--1237},
+	Title         = {{Cross-Topic Authorship Attribution: Will Out-Of-Topic Data Help?}},
+	Year          = {2014}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ARTIGOS - DEMAIS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@article{Varela2016,
+	Author        = {P. J. Varela and E. J.R. Justino and F. Bortolozzi and L. E.S. Oliveira},
+	Doi           = {10.1109/TLA.2016.7430088},
+	Issn          = {15480992},
+	Journal       = {IEEE Latin America Transactions},
+	Number        = {1},
+	Pages         = {259--266},
+	Title         = {{A computational approach based on syntactic levels of language in authorship attribution}},
+	Volume        = {14},
+	Year          = {2016}
+}
+
+@article{aa-pt-2017,
+	Author        = {Ilia Markov and Jorge Baptista and Obdulia Pichardo Lagunas},
+	Doi           = {10.12700/APH.14.3.2017.3.4},
+	Issn          = {17858860},
+	Journal       = {Acta Polytechnica Hungarica},
+	Number        = {3},
+	Pages         = {59--78},
+	Publisher     = {Budapest Tech Polytechnical Institution},
+	Title         = {{Authorship attribution in portuguese using character N-grams}},
+	Volume        = {14},
+	Year          = {2017}
+}
+
+@inproceedings{Halvani2017,
+	author    = {Oren Halvani and
+	Christian Winter and
+	Lukas Graner},
+	title     = {On the Usefulness of Compression Models for Authorship Verification},
+	booktitle = {Proceedings of the 12th International Conference on Availability,
+	Reliability and Security, Reggio Calabria, Italy, August 29 - September
+	01, 2017},
+	pages     = {54:1--54:10},
+	year      = {2017},
+	doi       = {10.1145/3098954.3104050},
+}
+
+
+
+
+@inproceedings{Diederik2015,
+	author    = {Diederik P. Kingma and Jimmy Ba},
+	title     = {Adam: {A} Method for Stochastic Optimization},
+	booktitle = {International Conference on Learning Representations - ICLR 2015},
+	pages     = {13},
+	publisher = {Ithaca, NY: arXiv.org},
+	year      = {2015},
+	month     = {05},
+	url       = {http://arxiv.org/abs/1412.6980},
+}
+
+
+@inproceedings{Afroz2014,
+	author    = {Sadia Afroz and
+	Aylin Caliskan Islam and
+	Ariel Stolerman and
+	Rachel Greenstadt and
+	Damon McCoy},
+	title     = {Doppelg{\"{a}}nger Finder: Taking Stylometry to the Underground},
+	booktitle = {2014 {IEEE} Symposium on Security and Privacy, {SP} 2014, Berkeley,
+	CA, USA, May 18-21, 2014},
+	pages     = {212--226},
+	publisher = {{IEEE} Computer Society},
+	year      = {2014},
+	doi       = {10.1109/SP.2014.21},
+}
+
+@article{Juola15,
+	author    = {Patrick Juola},
+	title     = {The Rowling Case: {A} Proposed Standard Analytic Protocol for Authorship
+	Questions},
+	journal   = {Digital Scholarship in the Humanitie},
+	volume    = {30},
+	number    = {Suppl-1},
+	pages     = {i100--i113},
+	year      = {2015},
+	doi       = {10.1093/llc/fqv040},
+}
+
+
+@article{ChawlaBHK02,
+	author    = {Nitesh V. Chawla and
+	Kevin W. Bowyer and
+	Lawrence O. Hall and
+	W. Philip Kegelmeyer},
+	title     = {{SMOTE:} Synthetic Minority Over-sampling Technique},
+	journal   = {J. Artif. Intell. Res.},
+	volume    = {16},
+	pages     = {321--357},
+	year      = {2002},
+	doi       = {10.1613/jair.953},
+}
+@Comment{jabref-meta: databaseType:bibtex;}
