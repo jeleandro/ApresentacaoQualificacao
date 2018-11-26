@@ -31,11 +31,13 @@
 \headcommand {\beamer@sectionpages {7}{12}}
 \headcommand {\beamer@subsectionpages {7}{12}}
 \headcommand {\sectionentry {3}{Trabalhos relacionados}{13}{Trabalhos relacionados}{0}}
-\headcommand {\beamer@sectionpages {13}{12}}
-\headcommand {\beamer@subsectionpages {13}{12}}
-\headcommand {\sectionentry {4}{Experimentos}{13}{Experimentos}{0}}
-\headcommand {\slideentry {4}{0}{1}{13/13}{}{0}}
+\headcommand {\slideentry {3}{0}{1}{13/13}{}{0}}
 \headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@sectionpages {13}{13}}
+\headcommand {\beamer@subsectionpages {13}{13}}
+\headcommand {\sectionentry {4}{Experimentos}{14}{Experimentos}{0}}
+\headcommand {\slideentry {4}{0}{1}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
 \headcommand {\slideentry {4}{0}{2}{15/15}{}{0}}
 \headcommand {\beamer@framepages {15}{15}}
 \headcommand {\slideentry {4}{0}{3}{16/16}{}{0}}
@@ -60,8 +62,8 @@
 \headcommand {\beamer@framepages {25}{25}}
 \headcommand {\slideentry {4}{0}{13}{26/26}{}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\beamer@sectionpages {13}{26}}
-\headcommand {\beamer@subsectionpages {13}{26}}
+\headcommand {\beamer@sectionpages {14}{26}}
+\headcommand {\beamer@subsectionpages {14}{26}}
 \headcommand {\sectionentry {5}{Projeto de pesquisa}{27}{Projeto de pesquisa}{0}}
 \headcommand {\slideentry {5}{0}{1}{27/27}{}{0}}
 \headcommand {\beamer@framepages {27}{27}}
@@ -112,4 +114,4 @@
 \headcommand {\beamer@subsectionpages {35}{47}}
 \headcommand {\beamer@sectionpages {35}{47}}
 \headcommand {\beamer@documentpages {47}}
-\headcommand {\gdef \inserttotalframenumber {46}}
+\headcommand {\gdef \inserttotalframenumber {47}}
