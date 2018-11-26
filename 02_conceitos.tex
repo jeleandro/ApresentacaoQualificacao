@@ -124,3 +124,50 @@ A abordagem estilométrica tradicional utiliza as seguintes fontes de conhecimen
 		Os {\bf caracteres mais frequentes (CNG)} (do inglês, {\it common n-grams}) \cite{Keselj2003,Sapkota2014}.
 	\end{tcolorbox}
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Conceitos - Modelos computacionais}
+\begin{tcolorbox}[title=Modelo tradicional de representação textual,valign=center]
+	\begin{itemize}
+		\item Hipótese distribucional aplicada à documentos \cite{Turney2010}
+		\item N-gramas
+		\item Conhecimentos: Caractere, Palavras, POS
+		\item TF-IDF
+		\item TF-IDF equações alternativas utilizadas nos experimentos:
+			\begin{itemize}
+				\item $ TF_{sublinear} = 1 + \log TF_{t,d}$ 
+				\item $
+				IDF_{Suavizado}(t,D) = log\left (
+				\frac{D}{DF(t)}
+				\right ) + 1
+				$
+			\end{itemize}
+	\end{itemize}	
+\end{tcolorbox}
+\end{frame}
+
+
+\begin{frame}{Conceitos - Modelos computacionais}
+
+\begin{columns}
+	\begin{column}{0.48\textwidth}
+		\begin{tcolorbox}[title=Modelo de representação distribuída,valign=center]
+			\begin{itemize}
+				\item Hipótese distribucional aplicada símbolos
+				\item Modelos neurais de língua natural \cite{Bengio2003}
+				\item {\it Word embeddings} 
+				\begin{itemize}
+					\item Representa cada palavra, ou símbolo, em k dimensões, sendo k menor que o tamanho do vocabulário de símbolos.
+					\item Word2Vec \cite{Mikolov2013}
+					\item Doc2Vec \cite{QuocLe2014}
+					\item FastText 
+				\end{itemize}
+			\end{itemize}
+		\end{tcolorbox}
+	\end{column}
+	\begin{column}{0.48\textwidth}
+		aa
+	\end{column}
+\end{columns}
+
+\end{frame}

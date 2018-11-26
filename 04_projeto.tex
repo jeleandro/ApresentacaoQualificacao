@@ -1,8 +1,13 @@
 \section{Projeto de pesquisa}
 
+\begin{frame}{Projeto de pesquisa}
+	\begin{block}{ }
+	Projeto de pesquisa
+	\end{block}
+\end{frame}
 
 
-\begin{frame}{Lacunas e motivação}
+\begin{frame}{Projeto - Lacunas e motivação}
 
 Lacunas gerais:
 
@@ -23,18 +28,106 @@ O trabalho em \citeonline{custodioParaboni2018} apresentou o melhor desempenho g
 \end{frame}
 
 
-\begin{frame} {Hipóteses}
+\begin{frame} {Projeto - Hipóteses}
 
 Este trabalho considera as seguintes hipóteses:
 
-\begin{itemize}
-	\item {H1:} O uso de modelos independentes de idioma do tipo de distorção textual permite filtrar aspectos específicos do texto, e a combinação de diversos tipos de distorção pode aumentar o desempenho de sistemas de AA.
-	
-	\item {H2:} O uso de modelos dependentes de idioma do tipo {\it part-of-speech} extraídos por anotadores baseados em aprendizado profundo pode aumentar o desempenho de sistemas de AA.
-	
-	\item {H3:} O uso de modelos dependentes de idioma do tipo representação distribuída ({\it embeddings}) pode aumentar o desempenho de sistemas de AA.
-\end{itemize}
+\begin{block}{H1:} O uso de modelos independentes de idioma do tipo de distorção textual permite filtrar aspectos específicos do texto, e a combinação de diversos tipos de distorção pode aumentar o desempenho de sistemas de AA.
+\end{block}
+
+\begin{block}{H2:} O uso de modelos dependentes de idioma do tipo {\it part-of-speech} extraídos por anotadores baseados em aprendizado profundo pode aumentar o desempenho de sistemas de AA.
+\end{block}
 
 
-Estas hipóteses serão testadas comparando-se os modelos propostos com sistemas de {\it baseline} que se façam pertinentes como o próprio modelo apresentado em \citeonline{custodioParaboni2018}.  A avaliação será feita por meio de medidas tradicionais em aprendizado de máquina, como a medida F, acurácia e outros. Espera-se que o resultado médio seja superior ao dos modelos de {\it baseline} de acordo com as métricas estipuladas.
+\begin{block}{H3:} O uso de modelos dependentes de idioma do tipo representação distribuída ({\it embeddings}) pode aumentar o desempenho de sistemas de AA.
+\end{block}
+
+\end{frame}
+
+\begin{frame}{Projeto - Objetivo}
+\begin{block}{Objetivo Geral}
+	O objetivo geral deste trabalho é enriquecer modelos de atribuição autoral de texto digitais com conjunto fechado de autores utilizando conhecimentos dependentes e independentes de idioma combinados com técnicas de aprendizados de máquina, de modo a obter resultados superiores ao estabelecido em trabalhos anteriores.
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Projeto - Conjunto de dados e Avaliação}
+
+\begin{block}{Avaliação das hipóteses}
+	\begin{itemize}
+		\item Comparação com {\it baselines} pertinentes, como o modelo apresentado em \citeonline{custodioParaboni2018}.
+		\item Serão utilizadas as medidas tradicionais de AM, como {\it medida F}, acurácia, auroc e outros.
+		\item Espera-se que o resultado médio seja superior ao dos modelos de {\it baseline}.
+	\end{itemize}
+\end{block}
+
+\setlength{\tabcolsep}{4pt}\selectFont
+\begin{table}[!htbp]
+	\centering
+	\caption{Córpus para avaliação dos métodos de AA}
+	\begin{tabular}{l|rll}
+		\toprule
+		Córpus       & No. Autores & Idioma             & Domínio/Gênero \\ \midrule
+		PAN-CLEF2014 &           - & EN, ES, DU, GR     & NV, AR, RV, ES \\ \hline
+		PAN-CLEF2018 &          20 & EN, ES, FR, IT, PL & NV             \\ \hline
+		RCV1         &          50 & EN                 & AR             \\ \hline
+		Nus-SMS      &         116 & EN                 & SMS            \\ \hline
+		b5-post      &       1.019 & PT-Br              & Facebook       \\ \hline
+		BlogSet-BR   &       4.331 & PT-Br              & AR             \\ \bottomrule
+	\end{tabular}
+	\label{tab.results}
+\end{table}
+
+\end{frame}
+
+
+
+\begin{frame}{Projeto - Atividades}
+
+\begin{enumerate}
+	\item {\bf Revisão bibliográfica} Concluído.
+	
+	\item {\bf Participação na PAN-CLEF 2018} Concluído.
+	
+	\item {\bf Preparação dos dados} Concluído.
+	
+	\item {\bf Modelos independentes de idioma} Estudo dos tipo de distorção textual, construção dos modelos computacionais e refinamentos específicos.
+	
+	\item {\bf Modelos baseados em anotações} Estudo dos pacotes para anotações POS, como NLTK\footnote{Disponível em  \url{https://www.nltk.org/}} e Spacy, construção dos modelos computacionais e refinamentos específicos.
+	
+	\item {\bf Modelos baseados em {\it embeddings}} Preparação de bases de dados de {\it embeddings}, estudo de {\it embeddings} específicos para AA, construção de modelos computacionais e refinamentos.
+	
+	\item {\bf Refinamentos} 
+	
+	\item {\bf Avaliação}
+	
+	\item {\bf Redação da dissertação} 
+	
+	\item {\bf Divulgação} 
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Projeto - Cronograma}
+
+
+\setlength{\tabcolsep}{3pt}\selectFont
+\begin{table}[]
+	\centering
+	\caption{Cronograma}
+		\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+			\toprule
+			& \multicolumn{7}{l|}{2018}      & \multicolumn{6}{l|}{2019} \\ \midrule
+			Atividades                              & 1-6 & 7 & 8 & 9 & 10 & 11 & 12 & 1 & 2 & 3 & 4 & 5 & 6     \\ \hline
+			1. Revisão bibliográfica                & x   & x & x & x & x  &    &    &   &   &   &   &   &       \\ \hline
+			2. Participação PAN-CLEF2018            & x   &   &   &   &    &    &    &   &   &   &   &   &       \\ \hline
+			3. Preparação dos dados                 & x   & x &   &   &    & x  &    &   &   &   &   &   &       \\ \hline
+			4. Modelos independentes de idioma      &     &   &   &   &    & x  & x  &   &   &   &   &   &       \\ \hline
+			5. Modelos baseados em anotações        &     & x &   &   &    & x  & x  &   &   &   &   &   &       \\ \hline
+			6. Modelos baseados em {\it embeddings} &     & x &   &   &    &    &    & x & x &   &   &   &       \\ \hline
+			7. Refinamentos                         &     &   &   &   &    &    &    & x & x & x &   &   &       \\ \hline
+			8. Avaliação final                      &     &   &   &   &    &    &    &   &   & x &   &   &       \\ \hline
+			9. Redação da dissertação               &     &   &   &   &    &    &    &   &   & x & x & x &       \\ \hline
+			10. Divulgação                          &     &   &   &   &    &    &    &   &   &   &   & x & x     \\ \bottomrule
+		\end{tabular}
+	\end{table}
 \end{frame}
