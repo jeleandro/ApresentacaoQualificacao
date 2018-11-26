@@ -5,7 +5,11 @@
 \beamer@slide {fig:exemplo}{17}
 \beamer@slide {eq:verificacao.mp2}{18}
 \beamer@slide {tab.results.verificacao}{19}
-\beamer@slide {tab.optimal}{24}
-\beamer@slide {tab.results}{25}
-\beamer@slide {tab.experimento1.resultados.por.autores}{26}
-\beamer@slide {tab.results}{31}
+\beamer@slide {tb.Dist}{24}
+\beamer@slide {tab.optimal}{25}
+\beamer@slide {tab.results}{26}
+\beamer@slide {tab.experimento1.resultados.por.autores}{27}
+\beamer@slide {tableTop.Std.charN}{28}
+\beamer@slide {tableTop.Std.distN}{29}
+\beamer@slide {tableTop.Std.wordN}{30}
+\beamer@slide {tab.results}{35}
