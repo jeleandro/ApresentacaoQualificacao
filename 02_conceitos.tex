@@ -373,5 +373,37 @@ Onde A e B são vetores de frequências documentos que se desejam comparar e C �
 		\end{tcolorbox}
 	\end{column}
 \end{columns}
+\end{frame}
 
+\begin{frame}{Modelos de aprendizado de máquina (AM)}
+\selectFont
+	\begin{figure}[H]\centering
+		\caption{Arquitetura de convolução para sentenças e documentos}\selectFont
+		\includegraphics[scale=0.27,origin=c,]{images/CNNKIN.png}
+		\label{fig:CNNText}
+		
+		Adaptado de \citeonline{Kim2014}
+	\end{figure}
+	$\bullet$ Método proposto em \citeonline{LeCun89} e baseado no córtex cerebral\\
+	$\bullet$ São redes especializadas que processam dados dispostos em grade.\\
+	$\bullet$ Operação de convolução é dividida em filtro e convolução, e  usa pesos compartilhados.\\
+	$\bullet$ A operação de pooling aplicada à texto mais é a {\it max-over-time}.
+\end{frame}
+
+\begin{frame}{Modelos de aprendizado de máquina (AM)}
+\selectFont
+	\begin{figure}[H]\centering
+		\caption{Expansão de um neurônio de uma rede recorrente}
+		\includegraphics[scale=0.17,origin=c,]{images/RNN-unrolled.png}
+		\label{fig:RNN-unrolled}
+		
+		Fonte: \url{http://colah.github.io/posts/2015-08-Understanding-LSTMs/}
+	\end{figure}
+
+	$\bullet$ Redes neurais recorrentes (RNN) \cite{elman1990finding}, são uma família de redes neurais que fazem o processamento de dados sequenciais, onde a dependência temporal é importante para o resultado \cite{Goodfellow2016}.
+	
+	$\bullet$ Devido à recorrência, um neurônio codifica uma sequência temporal.
+	
+	$\bullet$ O estudo em \citeonline{MikolovThesis2012} traz aplicações das RNNs aplicadas a modelagem da língua.
+	
 \end{frame}
