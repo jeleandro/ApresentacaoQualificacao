@@ -7,6 +7,8 @@
 		
 		\item A premissa principal da AA é que o autor deixa rastros de seu estilo, sendo que esses rastos podem ser a preferência por certas palavras, o tamanho do vocabulário, a utilização de pontuação e a repetição de certos elementos gramaticais.
 		
+		\item Do ponto de vista de aprendizado de máquina, a AA pode ser vista como um problema de classificação multi-classes \cite{Stamatatos2009}.
+		
 		\item A quantificação do estilo de escrita, ou estilometria, compreende um vasto conjunto de medidas e técnicas que buscam extrair uma ``biometria'' textual \cite{Neal2017}.
 		\end{itemize}
 	\end{alertblock}
@@ -58,21 +60,24 @@ Os métodos computacionais para atribuição autoral utilizam:
 \end{frame}
 
 \begin{frame}{Projeto - Lacunas e motivação}
-	Lacunas gerais:
+	\begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,valign=center,title=Lacunas gerais:]\selectFont
+		\begin{itemize}
+			\item A AA é um problema de pesquisa não totalmente resolvido \cite{Potthast2017}.
+			\item É o tema da série de competições PAN-CLEF \cite{aa-overview-2018}.
+			\item Estudos desta área exploram técnicas independentes de idioma e de domínio, subutilizando  recursos linguístico-computacionais, e seus avanços.
+		\end{itemize}
+	\end{tcolorbox}
+
+	\begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,valign=center,title=\citeonline{custodioParaboni2018} obteve o melhor desempenho global na PAN-CLEF2018 mas  deixa as seguintes lacunas:
+		]\selectFont
+		\begin{itemize}
+			\item não tirou proveito de conhecimentos dependentes de idioma como (POS).
+			\item e modelos de representação distribuída ({\it word embeddings}),
+			\item foi restrito ao domínio {\it Fanfic},
+			\item e não considerou dados em português brasileiro.
+		\end{itemize}
+	\end{tcolorbox}	
 	
-	\begin{itemize}
-		\item A AA é um problema de pesquisa não totalmente resolvido \cite{Potthast2017}.
-		\item É o tema da série de competições PAN-CLEF \cite{aa-overview-2018}.
-		\item Estudos desta área exploram técnicas independentes de idioma e de domínio, subutilizando  recursos linguístico-computacionais.
-	\end{itemize}
-	
-	O trabalho em \citeonline{custodioParaboni2018} apresentou o melhor desempenho global na edição de 2018 da competição PAN-CLEF, no entanto, deixa as seguintes lacunas:
-	\begin{itemize}
-		\item não tirou proveito de conhecimentos dependentes de idioma como {\it part-of-speech} (POS).
-		\item e modelos de representação distribuída ({\it word embeddings}.
-		\item foi restrito ao domínio {\it Fanfic}.
-		\item não considerou dados em português brasileiro.
-	\end{itemize}
 
 \end{frame}
 

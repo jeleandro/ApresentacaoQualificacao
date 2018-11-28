@@ -1,50 +1,32 @@
 \section{Conceitos}
 
-\begin{frame}{Definições}
-\begin{block}{Definições}
-	\begin{itemize}\itemsep9pt
-		\item A atribuição autoral (AA) é uma técnica computacional que visa identificar o autor de um texto a partir de um conjunto de autores possíveis, baseando-se em padrões de estilo deixados pelos autores \cite{Potthast2017}.
-		
-		\item Do ponto de vista de aprendizado de máquina, a AA pode ser vista como um problema de classificação multi-classes \cite{Stamatatos2009}.
-		
-		\item A quantificação do estilo de escrita, ou estilometria, compreende um vasto conjunto de medidas e técnicas que buscam extrair uma ``biometria'' textual \cite{Neal2017}.
-	\end{itemize}
-\end{block}
-
-\begin{block}{}
-	Apesar da similaridade com a tradicional tarefa de classificação de documentos, a AA busca elementos inconscientes da escrita que sejam independentes do conteúdo semântico do texto \cite{Keselj2003}.
-\end{block}
-
-\end{frame}
-
-
 \begin{frame}{Conceitos - Fatores que influenciam a AA}
 
 \begin{columns}
 	\begin{column}{0.48\textwidth}
-		\begin{tcolorbox}[title=Canal,height=2.4cm,valign=center]\selectFont
+		\begin{tcolorbox}[title=Canal,height=2cm,valign=center]\selectFont
 			$\bullet$ E-mail, jornais, livros, SMS
 			
 			$\bullet$ Textos mais ou menos formais.                    
 		\end{tcolorbox}
 	\end{column}
 	\begin{column}{0.48\textwidth}
-		\begin{tcolorbox}[title=Idioma,height=2.4cm,valign=center]\selectFont
+		\begin{tcolorbox}[title=Idioma,height=2cm,valign=center]\selectFont
 			$\bullet$ Complexidade morfológica e lexical diferentes.
 		\end{tcolorbox}
 	\end{column}
 \end{columns}
 \begin{columns}
 	\begin{column}{0.48\textwidth}
-		\begin{tcolorbox}[title=Tópico,height=2.4cm,valign=center]\selectFont
+		\begin{tcolorbox}[title=Tópico,height=2cm,valign=center]\selectFont
 			$\bullet$ Economia, celebridades, dia-a-dia
 			
 			$\bullet$ Influencia o vocabulário.                    
 		\end{tcolorbox}
 	\end{column}
 	\begin{column}{0.48\textwidth}
-		\begin{tcolorbox}[title=Domínio ou Gênero do texto,height=2.4cm,valign=center]\selectFont
-			$\bullet$ Contos, artigos, avaliações de produtos
+		\begin{tcolorbox}[title=Domínio ou Gênero do texto,height=2cm,valign=center]\selectFont
+			$\bullet$ Contos,  avaliações de produtos
 			
 			$\bullet$ Influencia no rigor formal e no vocabulário.
 		\end{tcolorbox}
@@ -53,13 +35,13 @@
 
 \begin{columns}
 	\begin{column}{0.48\textwidth}
-	\begin{tcolorbox}[title=Tamanho do texto,height=2.4cm,valign=center]
+	\begin{tcolorbox}[title=Tamanho do texto,height=2cm,valign=center]
 		$\bullet$ Métodos probabilísticos são afetados pelo número de observações.                  
 	\end{tcolorbox}
 	\end{column}
 	\begin{column}{0.48\textwidth}
-	\begin{tcolorbox}[title=Número de autores,height=2.4cm,valign=center]
-		$\bullet$ O aumento do número de classes requer o aumento do número de classes.                    
+	\begin{tcolorbox}[title=Número de autores,height=2cm,valign=center]
+		$\bullet$ O aumento do número de classes requer maior volume de dados.                    
 	\end{tcolorbox}
 	\end{column}
 \end{columns}
@@ -120,17 +102,32 @@
 
 A abordagem estilométrica tradicional utiliza as seguintes fontes de conhecimento:
 
-\begin{itemize}
-	\item {\bf Categoria lexical:} tamanho médio das palavras, número de letras maiúsculas, quantidade de dígitos, tamanho das sentenças, etc.
-	
-	\item {\bf Categoria sintática:} frequência da pontuação, palavras de função, frases começando com maiúscula, etc.
-	
-	\item {\bf Categoria semântica:} contagem das palavras, analisadores semânticos, {\it word embeddings}, etc.
-	
-	\item {\bf Categoria estrutura:} indentação, tamanho do parágrafo, etc.
-	
-	\item {\bf Categoria específica de domínio:} palavras-chave, {\it tags} HTML, {\it emoticons}, nomes de produtos.
-\end{itemize}
+	\begin{columns}
+	\begin{column}{0.48\textwidth}
+		\begin{tcolorbox}[colback=gray!5!white,colframe=gray!75!black,height=2.4cm,valign=center,title=Categoria lexical]\selectFont
+			tamanho médio das palavras, número de letras maiúsculas, quantidade de dígitos, tamanho das sentenças, etc.               
+		\end{tcolorbox}
+	\end{column}
+	\begin{column}{0.48\textwidth}
+		\begin{tcolorbox}[colback=gray!5!white,colframe=gray!75!black,height=2.4cm,valign=center,title=Categoria sintática]\selectFont
+			frequência da pontuação, palavras de função, frases começando com maiúscula, etc.               
+		\end{tcolorbox}
+	\end{column}
+	\end{columns}
+
+
+	\begin{columns}
+		\begin{column}{0.48\textwidth}
+			\begin{tcolorbox}[colback=gray!5!white,colframe=gray!75!black,height=2.4cm,valign=center,title=Categoria semântica]\selectFont
+				contagem das palavras, analisadores semânticos, {\it word embeddings}, etc.               
+			\end{tcolorbox}
+		\end{column}
+		\begin{column}{0.48\textwidth}
+			\begin{tcolorbox}[colback=gray!5!white,colframe=gray!75!black,height=2.4cm,valign=center,title=Categoria específica de domínio]\selectFont
+				 palavras-chave, {\it tags} HTML, {\it emoticons}, nomes de produtos.               
+			\end{tcolorbox}
+		\end{column}
+	\end{columns}
 \end{frame}
 
 
@@ -144,7 +141,8 @@ Outra classificação possível e simplificada dos conhecimentos utilizados na A
 	\begin{itemize}
 		\item As palavras mais frequentes são independentes de domínio e utilizadas de forma inconsciente \cite{Kestemont2014}.
 		\item {\bf Palavras de função} (do inglês, {\it function words}) compreende artigos, preposições, locuções adverbiais, e outros.\\
-		\item Capturam semântica e elementos de conexão entre sentenças.
+		\item Elementos de conexão entre sentenças.
+		\item Capturam semântica. 
 		\item Diversas ferramentas são preparadas para usar a unidade {\it palavra}.
 	\end{itemize}			
 \end{tcolorbox}
@@ -161,7 +159,7 @@ Outra classificação possível e simplificada dos conhecimentos utilizados na A
 			\item São independentes de idioma.
 			\item Não precisam de {\it stemming} pois lidam bem com idiomas flexionais.
 			\item Geram vetores de contagem mais densos que os vetores de palavras.
-			\item Os n-gramas de caracteres conseguem capturar pontuação, utilização de espaços, preferências temporais, palavras de função de tamanho curto.
+			\item Os n-gramas de caracteres conseguem capturar preferências de pontuação, utilização de espaços, preferências temporais, palavras de função de tamanho curto.
 			\item O trabalho em \citeonline{aa-Sapkota2015} mostra que apesar de independente de idioma nem todos os {\it char n-gramas} tem a mesma origem.
 		\end{itemize}
 
@@ -172,10 +170,10 @@ Outra classificação possível e simplificada dos conhecimentos utilizados na A
 \begin{frame}{Conceitos - Modelos computacionais}
 \begin{tcolorbox}[title=Modelo tradicional de representação textual - BOW,valign=center]\selectFont
 	\begin{itemize}
-		\item Hipótese distribucional aplicada a documentos \cite{Turney2010}
-		\item Modelo de n-gramas
+		\item Modelo de espaço de vetores/ {\it Bag-of-Words}  \cite{Turney2010}
+		\item Modelo de n-gramas 
 		\item Conhecimentos: Caracteres, Palavras, POS
-		\item TF-IDF
+		\item Sistema de pesos mais usado é TF-IDF
 		\item TF-IDF equações alternativas utilizadas nos experimentos:
 			\begin{itemize}\selectFont
 				\item $ TF_{sublinear} = 1 + \log TF_{t,d}$  $\longrightarrow$ Definição I do SMART. 
@@ -189,23 +187,23 @@ Outra classificação possível e simplificada dos conhecimentos utilizados na A
 \end{tcolorbox}
 \end{frame}
 
-
 \begin{frame}{Conceitos - Modelos computacionais}
 \selectFont
 \begin{columns}
 	\begin{column}{0.60\textwidth}
 		\begin{tcolorbox}[title=Modelo de representação distribuída,height=7cm,valign=center]\selectFont
 			\begin{itemize}
-				\item Hipótese distribucional aplicada símbolos
+				\item Hipótese distribucional
 				\item Modelos neurais de língua natural \cite{Bengio2003}
 				\item Aprendizado não supervisionado
 				\item Transferência de conhecimento
 				\item {\it Word embeddings} 
 				\begin{itemize}\selectFont
-					\item Representa cada palavra, ou símbolo, em k dimensões, sendo k menor que o tamanho do vocabulário.
-					\item Word2Vec \cite{Mikolov2013}
-					\item Doc2Vec \cite{QuocLe2014}
-					\item FastText \cite{bojanowski2017enriching}
+					\item LSA
+					\item Word2Vec
+					\item Doc2Vec
+					\item FastText
+					\item Glove
 				\end{itemize}
 			\end{itemize}
 		\end{tcolorbox}		
@@ -218,8 +216,6 @@ Outra classificação possível e simplificada dos conhecimentos utilizados na A
 	\end{column}
 \end{columns}
 \end{frame}
-
-
 
 
 \begin{frame}{Modelos computacionais baseados em distância}
@@ -242,71 +238,23 @@ Outra classificação possível e simplificada dos conhecimentos utilizados na A
 		\end{tcolorbox}
 	\end{column}
 	\begin{column}{0.48\textwidth}\selectFont
-		\begin{tcolorbox}[title=Manhattan,height=2cm,valign=center]\selectFont
-			$
-			Manhattan \left ( A,B \right )= \sum_i {\left| A_i - B_i \right|}
-			 $     
-	\end{tcolorbox}
-	\end{column}
-	\end{columns}
-
-
-	\begin{columns}
-		\begin{column}{0.48\textwidth}
 			\begin{tcolorbox}[colback=blue!5!white,colframe=blue!75!black,title=Jaccard,height=2cm,valign=center]\selectFont
-			$
-			Jaccard(A,B) = \frac{\left | A \cap B \right |}{\left | A \cup B \right |}
-			$
-			
-			Interseção binária
-			\end{tcolorbox}
-		\end{column}
-		\begin{column}{0.48\textwidth}\selectFont
-			\begin{tcolorbox}[title={MinMax, ou Jaccard generalizado},height=2cm,valign=center]\selectFont
 				$
-				MinMax (A,B) = \frac{ \sum_{i}^{n}{ min(A_i,B_i|}}{\sum_{i}^{n}{max(A_i,B_i)}}
-				$      
+				Jaccard(A,B) = \frac{\left | A \cap B \right |}{\left | A \cup B \right |}
+				$
+				
+				Interseção binária
 			\end{tcolorbox}
-		\end{column}
+	\end{column}
 	\end{columns}
 
-\end{frame}
-
-
-\begin{frame}{Modelos computacionais baseados em distância}
-\selectFont
-\begin{tcolorbox}[colback=blue!5!white,colframe=blue!75!black,valign=center,title=Regra $\Delta$ de Burrows ]\selectFont
-	\begin{equation}
-	\begin{aligned}
-	\Delta Burrow \left ( A, B \right) = \frac{1}{N}\sum_{i=1}^{N}\left | Zscore(A_i,C_i) - Zscore(B_i,C_i) \right |
-	\\
-	Zscore(X_i,C_i)= \frac{X_i - \mu (C_i) }{\sigma(C_i)}
-	\end{aligned}
-	\label{eq:deltaBorrow}
-	\end{equation}
-		
-	Distância de Manhattan dos Z-score das frequências         
-\end{tcolorbox}
-
-
-	\begin{columns}
-	\begin{column}{0.48\textwidth}
-		\begin{tcolorbox}[title=Keselj,height=2cm,valign=center]\selectFont
-			$
-			Keselj (A,B) = \sum_i^n \left ( \frac{ 2*\left(A_i-B_i \right ) }{A_i+B_i}\right )^{2}
-			$
-		\end{tcolorbox}
-	\end{column}
-	\begin{column}{0.48\textwidth}\selectFont
-		\begin{tcolorbox}[title=Stamatatos,height=2cm,valign=center]\selectFont
+	\begin{tcolorbox}[title=Stamatatos,height=2cm,valign=center]\selectFont
 			$
 Stamatatos (A,B, C) = \sum_i^n \left ( \frac{ 2*\left(A_i-B_i \right ) }{A_i+B_i}\right )^{2} * \left ( \frac{ 2*\left(A_i-C_i \right ) }{A_i+C_i}\right )^{2}
 			$      
-		\end{tcolorbox}
-	\end{column}
-\end{columns}
+	\end{tcolorbox}
 
-Onde A e B são vetores de frequências documentos que se desejam comparar e C é o vetor de frequência do córpus.
+A e B são vetores de frequências dos documentos. C é o vetor de frequência do córpus.
 
 \end{frame}
 
@@ -333,77 +281,3 @@ Onde A e B são vetores de frequências documentos que se desejam comparar e C �
 	\end{tcolorbox}
 \end{frame}
 
-
-\begin{frame}{Modelos de aprendizado de máquina (AM)}
-
-\begin{columns}
-	\begin{column}{0.55\textwidth}
-		\begin{tcolorbox}[colback=blue!5!white,colframe=blue!75!black,valign=center,title=Regressão logística softmax]\selectFont
-			\centering
-			\begin{equation} 
-			\begin{matrix}
-			f_1(X) - \ln Z  & = \ln P(Y=1|X) \\
-			\cdots & \cdots \\
-			f_c(X) - \ln Z & = \ln P(Y=c|X) \\
-			\end{matrix}
-			\label{eq:logisticaArray}
-			\end{equation}
-			
-			$\Downarrow$
-			
-			\begin{equation}
-			P(Y=c|X) =softmax(X,c) = \frac{e^{f_c(X)}}{\sum_{k=1}^{K} e^{f_k(X)}}
-			\label{eq:softmax}
-			\end{equation}
-		\end{tcolorbox}
-	\end{column}
-	\begin{column}{0.45\textwidth}
-		\begin{tcolorbox}[colback=blue!5!white,colframe=blue!75!black,valign=center,title=Propriedades]\selectFont
-			$\bullet$ Não assume a independência das variáveis.
-			
-			$\bullet$ Possui saída probabilística.
-			
-			$\bullet$ As probabilidades reflem o balanceamento das classes.
-			
-			$\bullet$ Possui saída contínua.
-			
-			$\bullet$ É um classificador linear.
-			
-			$\bullet$ É usado em aprendizado profundo.
-		\end{tcolorbox}
-	\end{column}
-\end{columns}
-\end{frame}
-
-\begin{frame}{Modelos de aprendizado de máquina (AM)}
-\selectFont
-	\begin{figure}[H]\centering
-		\caption{Arquitetura de convolução para sentenças e documentos}\selectFont
-		\includegraphics[scale=0.27,origin=c,]{images/CNNKIN.png}
-		\label{fig:CNNText}
-		
-		Adaptado de \citeonline{Kim2014}
-	\end{figure}
-	$\bullet$ Método proposto em \citeonline{LeCun89} e baseado no córtex cerebral\\
-	$\bullet$ São redes especializadas que processam dados dispostos em grade.\\
-	$\bullet$ Operação de convolução é dividida em filtro e convolução, e  usa pesos compartilhados.\\
-	$\bullet$ A operação de pooling aplicada à texto mais é a {\it max-over-time}.
-\end{frame}
-
-\begin{frame}{Modelos de aprendizado de máquina (AM)}
-\selectFont
-	\begin{figure}[H]\centering
-		\caption{Expansão de um neurônio de uma rede recorrente}
-		\includegraphics[scale=0.17,origin=c,]{images/RNN-unrolled.png}
-		\label{fig:RNN-unrolled}
-		
-		Fonte: \url{http://colah.github.io/posts/2015-08-Understanding-LSTMs/}
-	\end{figure}
-
-	$\bullet$ Redes neurais recorrentes (RNN) \cite{elman1990finding}, são uma família de redes neurais que fazem o processamento de dados sequenciais, onde a dependência temporal é importante para o resultado \cite{Goodfellow2016}.
-	
-	$\bullet$ Devido à recorrência, um neurônio codifica uma sequência temporal.
-	
-	$\bullet$ O estudo em \citeonline{MikolovThesis2012} traz aplicações das RNNs aplicadas a modelagem da língua.
-	
-\end{frame}
